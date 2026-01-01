@@ -1,0 +1,1411 @@
+{
+  "timestamp": "2026-01-01T16:18:36.796138",
+  "metrics": {
+    "retrieval_hit_rate": 90.0,
+    "faithfulness_rate": 88.0,
+    "hallucination_rate": 12.0,
+    "no_answer_rate": 0.0
+  },
+  "results": [
+    {
+      "question": "What is ICAO?",
+      "category": "simple_factual",
+      "answer": "International Civil Aviation Organization",
+      "chunks": [
+        {
+          "text": "Air Information Publications\n1\n4\n1 Air Information PublicationsFormat of an AIP\nThe format of an AIP produced by an ICAO contracting state conforms to a common standard \nin accordance with the Standards and Recommended Practices (SARP) of Annex 15 to the \nConvention on International Civil Aviation and with the Aeronautical Information Services \nManual (ICAO Doc 8126). Thus the Air Information Publication United Kingdom is a typical \nreference document. It is divided into:\n• VOLUME I - AIP PART 1, GENERAL (GEN) and AIP SUPPLEMENTS (AIP SUP)\n• VOLUME II - AIP PART 2, EN ROUTE (ENR)\n• VOLUME III - AIP PART 3, AERODROMES (AD)\nAIP Gen - Location Indicators\nGEN 2.4 - LOCATION INDICATORS\nENCODE\nLocation Indicator Location Indicator Location Indicator\nAberdeen EGPD Culdrose EGDR Hucknall EGNA\nAber",
+          "document": "Flight planning and monitoring",
+          "page": 10,
+          "chunk_id": 24
+        },
+        {
+          "text": "be used by the \naircraft will consist of the ICAO telephony designator for the operating agency followed by \nthe flight identification (e.g. KLM511, NIGERIA 213, HERBIE 25).\n• \nNote : Provisions for the use of radio-telephony call signs are contained in ICAO Annex 10. \nVolume II Chapter 5 (not published herein). Designators and telephony designators for aircraft  \noperating agencies are contained in ICAO 8585 - Designators for Aircraft Operating Agencies, \nAeronautical Authorities and Services (not published herein).",
+          "document": "Flight planning and monitoring",
+          "page": 234,
+          "chunk_id": 605
+        },
+        {
+          "text": "speed; the true airspeed for the first part of the whole cruising portion of the flight \nin accordance with Item 15 (a) of the ICAO flight plan.\n•  Cruising level; the planned cruising level for the first or whole portion of the route in \naccordance with Item 15 (b) of the ICAO flight plan.\n• Route; the entire route in accordance with Item 15 (c) of the ICAO flight plan.\nItem P: DESTINATION AERODROME AND TOTAL ESTIMATED ELAPSED TIME\n(Item 16 of the ICAO flight plan)\nInsert  location indicator of the destination aerodrome.\nInsert  the total elapsed time.\nItem Q: REMARKS\nInsert  items of information as required by the appropriate ATS authority, normally notified in \nItem 18 of the ICAO flight plan and any other information pertinent to the flight of concern \nto ATS.",
+          "document": "Flight planning and monitoring",
+          "page": 245,
+          "chunk_id": 648
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What does ATC stand for?",
+      "category": "simple_factual",
+      "answer": "Air traffic control",
+      "chunks": [
+        {
+          "text": "ATC Flight Plan\n12\n226\n12 ATC Flight PlanNote:   If the flight plan is submitted for the purpose of obtaining air traffic control service, \nthe aircraft is required to wait for an air traffic control clearance prior to proceeding under \nthe conditions requiring compliance with air traffic control procedures. If the flight plan is \nsubmitted for the purpose if obtaining air traffic advisory service, the aircraft is required to wait \nfor acknowledgement of receipt by the unit providing the service.\nAcceptance of a Flight Plan\nThe first air traffic services unit receiving a flight plan, or a change thereto, shall:\n• Check it for compliance with the format and data conventions\n• Check it for completeness and, to the extent possible, for accuracy\n• Take action, if necessary, to make it acceptab",
+          "document": "Flight planning and monitoring",
+          "page": 232,
+          "chunk_id": 594
+        },
+        {
+          "text": "ion.\nPPR  means that Prior Permission is Required from ATC for flight in the arrow’s direction.\nAirway Navaid/Reporting Point Bypass\nThe symbols depicting the bypassing of a navaid or reporting point should be noted.\nBoundaries\nStudents need to be familiar with the boundary symbols.\nControlled Airspace & ICAO Airspace Classifications \nReference to the symbols in conjunction with the exercises in this chapter will enable the \nstudent to become familiar with the symbols for the above.\nICAO Airspace Classification is designated by the letters A to G:\nClass A : IFR flights only are permitted; all flights are subject to ATC service and are separated \nfrom each other.\nClass B : IFR and VFR flights are permitted; all flights are subject to ATC service and are separated \nfrom each other.\nClass C :",
+          "document": "Flight planning and monitoring",
+          "page": 157,
+          "chunk_id": 400
+        },
+        {
+          "text": "ATC Flight Plan\n12\n232\n12 ATC Flight PlanAltitude in hundreds of feet , expressed as A followed by 3 figures (e.g. A045, A100); or\nAltitude in tens of metres , expressed as M followed by 4 figures (e.g. M0840); or\nFor uncontrolled VFR flights , the letters VFR.\n• ROUTE (INCLUDING CHANGES OF SPEED, LEVEL AND/OR FLIGHT RULES)\nFlights Along Designated ATS Routes\nINSERT , if the departure aerodrome is located on, or connected to the ATS route, the designator \nof the first ATS route;\nOR,  if the departure aerodrome is not on, or connected to the ATS route, the letters DCT \nfollowed by the point of joining the first ATS route, followed by the designator of the \nATS route.\nTHEN\nINSERT  each point at which either a change of speed or level, a change of ATS route, and/or a \nchange of flight rules i",
+          "document": "Flight planning and monitoring",
+          "page": 238,
+          "chunk_id": 617
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is the definition of flight planning?",
+      "category": "simple_factual",
+      "answer": "Planned flight",
+      "chunks": [
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "n addition to the \nlanguage(s) of the State concerned. Note: The Model Flight Plan Form in Appendix 2 is printed \nin English and one other of the languages of the Organization for illustration purposes.\nOperators and air traffic services units should comply with the instructions for completion of a \nflight plan form and a repetitive flight plan listing form given in Appendix 2. \nNote: The instructions for completing a flight plan form given in Appendix 2 may be conveniently \nprinted on the inside cover of flight plan form pads, or posted in briefing rooms.\nAn operator unable to satisfy a prescribed route or area RNP* should, prior to departure, \nadvise ATC of the RNP* types the aircraft is certified to meet.\n(* Required Navigation Performance (RNP) is a statement of the navigation performa",
+          "document": "Flight planning and monitoring",
+          "page": 231,
+          "chunk_id": 589
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is a flight plan?",
+      "category": "simple_factual",
+      "answer": "Type of plan - individual or repetitive",
+      "chunks": [
+        {
+          "text": "plans?\n 1)  They can file the flight plan for you.\n 2)   In the event of an in-flight re-routing computer automatically generates a \nnew flight plan.\na 1 only\nb. 2 only\nc. Neither\nd. Both",
+          "document": "Flight planning and monitoring",
+          "page": 295,
+          "chunk_id": 754
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "ividual and Repetitive Flight Plans (RPLs).\n• Type of plan - individual or repetitive\n• The format of an ICAO flight plan.\n• The information required for the plan.\n• How to complete, file, cancel or amend a flight plan.\nDefinitions\nFlight plan : Specified information provided to air traffic service units, relative to an intended \nflight or portion of a flight of an aircraft.\nRepetitive flight plan (RPL) : A flight plan related to a series of frequently recurring, regularly \noperated individual flights with identical basic features, submitted by an operator for retention \nand repetitive use by ATS units. These flights must be operated on the same day(s) of consecutive \nweeks and on at least 10 occasions, or every day over a period of at least 10 consecutive days. \nThe elements of each fligh",
+          "document": "Flight planning and monitoring",
+          "page": 213,
+          "chunk_id": 544
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What does VFR mean?",
+      "category": "simple_factual",
+      "answer": "VFR",
+      "chunks": [
+        {
+          "text": "ct to all other flights.\nClass E : IFR and VFR flights are permitted; IFR flights are subject to ATC service and are \nseparated from other IFR flights. All flights receive traffic information as far as is practicable.\nClass F : IFR and VFR flights are permitted; all participating IFR flights receive an air traffic \nadvisory service and all flights receive flight information service if requested.\nClass G : IFR and VFR flights are permitted and receive flight information service if requested.\nNote the depiction, with airspace classification, of Terminal Control Area (TMA), Control Area \n(CTA) and Control Zone (CTR) .",
+          "document": "Flight planning and monitoring",
+          "page": 157,
+          "chunk_id": 402
+        },
+        {
+          "text": "ATC Flight Plan\n12\n234\n12 ATC Flight Plan• CHANGE OF FLIGHT RULES  (MAXIMUM 3 CHARACTERS)\nThe point  at which the change of flight rules is planned, expressed exactly as above as \nappropriate, followed by a space and one of the following :\nVFR if from IFR to VFR  IFR if from VFR to IFR\nExamples: LN VFR\nLN/N0284A050 IFR\n• CRUISE CLIMB  (MAXIMUM 28 CHARACTERS)\nThe letter “C”  followed by an oblique stroke;\nTHEN\nthe point  at which cruise climb is planned to start; expressed exactly as above, followed by an \noblique stroke;\nTHEN\nthe speed  to be maintained during cruise climb , expressed exactly as in a. above, followed \nby the two levels defining the layer to be occupied during cruise climb, each level expressed \nexactly as previously, or on the level above which cruise climb is planned foll",
+          "document": "Flight planning and monitoring",
+          "page": 240,
+          "chunk_id": 627
+        },
+        {
+          "text": "d off-block time : The estimated time at which the aircraft will commence movement \nassociated with departure.\nEstimated time of arrival : For IFR flights, the time at which it is estimated that the aircraft  \nwill arrive over that designated point, defined by reference to navigational aids, from which \nit is intended that an instrument approach will be commenced, or, if no navigational aid is \nassociated with the aerodrome, the time at which the aircraft will arrive over the aerodrome. \nFor VFR flights, the time at which it is estimated the aircraft will arrive over the aerodrome.\n(Extract from ICAO DOC 4444  (PANS-RAC) Dated 22 Nov 07)",
+          "document": "Flight planning and monitoring",
+          "page": 213,
+          "chunk_id": 546
+        }
+      ],
+      "retrieval_hit": false,
+      "faithful": false,
+      "hallucinated": true
+    },
+    {
+      "question": "What does IFR mean?",
+      "category": "simple_factual",
+      "answer": "Flight rules and type of flight",
+      "chunks": [
+        {
+          "text": "(When choosing levels for the Medium Range Jet Transport (MRJT) aircraft, the IFR BELOW \nFL290  and AT AND ABOVE FL290  will be the reference for IFR flight).",
+          "document": "Flight planning and monitoring",
+          "page": 139,
+          "chunk_id": 355
+        },
+        {
+          "text": "12\n229\nATC Flight Plan 12ATC Flight Plan\nItem 8: Flight Rules and Type of Flight\n(ONE OR TWO CHARACTERS)\nFLIGHT RULES\nINSERT  one of the following letters to denote the category of flight rules with which the pilot \nintends to comply:\nI if IFR V if VFR\n   \nY if IFR first \n   and specify in Item 15 the point or points where a change of flight rules is \nplanned.\nZ if VFR first\nType of Flight\nINSERT  one of the following letters to denote the type of flight when so required by the \nappropriate ATS authority:\nS if scheduled air service  \nN if non-scheduled air transport operation  \nG if general aviation  \nM if military  \nX if other than any of the defined categories above.\nItem 9:   Number and Type or Aircraft and Wake Turbulence Category\nNUMBER OF AIRCRAFT  (1 OR 2 CHARACTERS) \nINSERT  the nu",
+          "document": "Flight planning and monitoring",
+          "page": 235,
+          "chunk_id": 606
+        },
+        {
+          "text": "Air Information Publications\n1\n12\n1 Air Information PublicationsAIP ENR - Navigation Warnings  \n(Ref. UK AIP ENR 5)\nFor safety reasons, when planning a VFR or IFR flight at low or high Flight Levels, the pilot must \ntake into account the following:\n• Prohibited, Restricted and Danger Areas ( Figure 1.6 )\n• Military Exercise and Training Areas ( Figure 1.7 )\n•  Other Activities of a Dangerous Nature, such as High Intensity Radio Transmissions ( Figure \n1.8).\n• Air Navigation Obstacles En Route, such as bridges and chimneys.\n• Aerial Sporting and Recreational Activities.\nENR 5.1 - PROHIBITED, RESTRICTED AND DANGER AREAS\nIdentification and Name \nLateral LimitsUpper Limit (ft)Lower Limit (ft)Activity Details, Remarks and Byelaw Reference(One hour earlier during summer period)\n1 2 3\nDanger Area",
+          "document": "Flight planning and monitoring",
+          "page": 18,
+          "chunk_id": 50
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is NOTAM?",
+      "category": "simple_factual",
+      "answer": "A notice distributed by means of telecommunications containing information nconcerning the establishment, condition or change in any aeronautical facility, service, nprocedure or hazard, the timely knowledge of which is essential to personnel concerned with nflight operations.nA NOTAM",
+      "chunks": [
+        {
+          "text": "IP SUPPLEMENT SECTION of the \nUK AIP, GENERAL (GEN) volume.\nNOTAM . A notice distributed by means of telecommunications containing information \nconcerning the establishment, condition or change in any aeronautical facility, service, \nprocedure or hazard, the timely knowledge of which is essential to personnel concerned with \nflight operations.\nA NOTAM is originated and issued promptly whenever information to be distributed is of a \ntemporary nature and short duration or when operationally significant permanent changes \nof long duration are made at short notice. They are displayed in, or issued by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 22
+        },
+        {
+          "text": "rigger” NOTAMS, which remain valid for 15 days after a permanent change \nand for the complete duration of any temporary change or condition.\nThree categories of NOTAMS are disseminated by the Aeronautical Fixed Service (AFS):\n• NOTAMN , which contains new  information. \n• NOTAMR , which replaces  a previous one.\n• NOTAMC , which cancels  a previous one. \nUK NOTAMS are divided into two categories:\n•  Those containing information on UK International Airports and en route information of \ninterest to both international and domestic recipients. (A to H, J and exceptionally X).\n•  Those containing information on domestic aerodromes and information to domestic \nrecipients only. (L to N, R and exceptionally X).\nEdited Example NOTAMS:\n• Series A\n(A0012/99 NOTAMN)\nE) MIDHURST DVOR ‘MID’ 114.000MHZ U",
+          "document": "Flight planning and monitoring",
+          "page": 11,
+          "chunk_id": 29
+        },
+        {
+          "text": "f the \nLocation Indicator, particularly when filing a Flight Plan (CA48), where the entries for departure, \ndestination and diversion airfields, and FIR/UIR boundaries, are represented by a particular \nfour-letter code.\nAIP GEN - NOTAMS (Notices to Airmen)  \n(Ref. UK AIP GEN 3.1)\nAll operationally significant information not covered by AIP Amendment or AIP Supplement \nwill be issued as a NOTAM.\nAll operationally significant changes issued as Aeronautical Regulation and Control (AIRAC) \nAIP Amendments, AIP Supplements or Aviation Information Circulars (AIC) will be additionally \nannounced by “Trigger” NOTAMS, which remain valid for 15 days after a permanent change \nand for the complete duration of any temporary change or condition.\nThree categories of NOTAMS are disseminated by the Aeronaut",
+          "document": "Flight planning and monitoring",
+          "page": 11,
+          "chunk_id": 28
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is the purpose of a flight plan?",
+      "category": "simple_factual",
+      "answer": "Specified information provided to air traffic service units",
+      "chunks": [
+        {
+          "text": "plans?\n 1)  They can file the flight plan for you.\n 2)   In the event of an in-flight re-routing computer automatically generates a \nnew flight plan.\na 1 only\nb. 2 only\nc. Neither\nd. Both",
+          "document": "Flight planning and monitoring",
+          "page": 295,
+          "chunk_id": 754
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "ividual and Repetitive Flight Plans (RPLs).\n• Type of plan - individual or repetitive\n• The format of an ICAO flight plan.\n• The information required for the plan.\n• How to complete, file, cancel or amend a flight plan.\nDefinitions\nFlight plan : Specified information provided to air traffic service units, relative to an intended \nflight or portion of a flight of an aircraft.\nRepetitive flight plan (RPL) : A flight plan related to a series of frequently recurring, regularly \noperated individual flights with identical basic features, submitted by an operator for retention \nand repetitive use by ATS units. These flights must be operated on the same day(s) of consecutive \nweeks and on at least 10 occasions, or every day over a period of at least 10 consecutive days. \nThe elements of each fligh",
+          "document": "Flight planning and monitoring",
+          "page": 213,
+          "chunk_id": 544
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is the minimum fuel reserve requirement?",
+      "category": "simple_factual",
+      "answer": "Final reserve fuel",
+      "chunks": [
+        {
+          "text": "ply the fuel required to fly from missed approach at the destination to the \nplanned alternate. It should take into account probable routing and expected wind component, \nbut it does not have its own allowance of contingency fuel. Contingency allowance is applied \nonly to the trip fuel.\nFinal Reserve Fuel\nIf you fly from departure to destination, use the contingency fuel en route, and then have \na missed approach at the destination and fly to the alternate, you will have no fuel left on \narrival. We therefore have a minimum landing fuel, and you should normally never land with \nless than the Final Reserve Fuel. It consists of 30 min (jet/turboprop) at 1500’ above AAL in ISA \nconditions, or 45 min (piston engine aircraft) fuel consumption at endurance speed.\nAdditional Fuel\nContingency, Alt",
+          "document": "Flight planning and monitoring",
+          "page": 32,
+          "chunk_id": 85
+        },
+        {
+          "text": "l consisting of:\n• Contingency\n• Alternate fuel, if a destination alternate is required\n•  Final reserve fuel (for aeroplanes with turbine power units, fuel to fly for 30 minutes at \nholding speed at 1500 ft (450 m) above aerodrome elevation in standard conditions), \nand,\n• Additional fuel, if required by the type of operation (e.g. ETOPS) , and,\n• Extra fuel if required by the commander",
+          "document": "Flight planning and monitoring",
+          "page": 118,
+          "chunk_id": 289
+        },
+        {
+          "text": "21\n2\nChapter\nFuel Policy and Fuel Monitoring\nUniversal Application of Fuel Policy  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\nRealistic Trip Fuel  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\nEASA Fuel Policy - Breakdown of Fuel  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\nReserve Fuel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\nCalculation of Contingency Fuel  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27\nFuel Policy - Worked Examples  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28\nFuel Monitoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "document": "Flight planning and monitoring",
+          "page": 27,
+          "chunk_id": 71
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is an alternate aerodrome?",
+      "category": "simple_factual",
+      "answer": "heliport",
+      "chunks": [
+        {
+          "text": "has been assigned to the alternate aerodrome,\nINSERT ZZZZ  and SPECIFY  in item 18 the name of the aerodrome, preceded by ALTN/....",
+          "document": "Flight planning and monitoring",
+          "page": 240,
+          "chunk_id": 630
+        },
+        {
+          "text": "aerodromes which, taking into account the weather \nand any equipment unserviceabilities, are suitable for his intended operation. An aerodrome \nshall only be selected as an ETOPS enroute alternative when the appropriate weather reports \nor forecasts, or any combination thereof, indicate that, between the anticipated time of \nlanding until one hour after the latest possible time of landing, conditions will be at or above \nthe planning minima.\nETOPS - Minimum Equipment List (MEL)\nPrimary system redundancy levels appropriate to ETOPS will be reflected in the MEL. For \naeroplanes in operational service the existing MEL will be re-evaluated and adjusted as \nnecessary  to reflect the primary system redundancy levels required for ETOPS. Primary \nairframe systems are those which have a fundamenta",
+          "document": "Flight planning and monitoring",
+          "page": 116,
+          "chunk_id": 283
+        },
+        {
+          "text": "odrome Categorization  \n(Ref. UK AIP AD 1.4)\nIn the UK there are two types of civil aerodrome licence namely, PUBLIC USE LICENCE and \nORDINARY LICENCE.\nAerodromes or heliports operated in accordance with a PUBLIC USE LICENCE must have their \nhours of availability notified in the UK AIP and the aerodrome/heliport must be available to all \noperators on certain equal terms and conditions. However, this does not necessarily mean that \nthe aerodrome is available to all flights without limitation. Aircraft operators must check and \ncomply with the requirements and conditions of use indicated at AD 2 or 3.\nAerodromes or heliports operated in accordance with an ORDINARY LICENCE may accept \nflights operated by the holder of the licence or by those specifically authorized by that licence \nholder. Th",
+          "document": "Flight planning and monitoring",
+          "page": 20,
+          "chunk_id": 56
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": false,
+      "hallucinated": true
+    },
+    {
+      "question": "What is RVSM?",
+      "category": "simple_factual",
+      "answer": "Runway Visual Range",
+      "chunks": [
+        {
+          "text": "path.\n  Runway Visual Range (RVR)  is the maximum distance a pilot 15 ft above the runway \nin the touchdown area can see marker boards by day or night when looking in the \ndirection of take-off or landing. (ref. Meteorology book).",
+          "document": "Flight planning and monitoring",
+          "page": 178,
+          "chunk_id": 462
+        },
+        {
+          "text": "ng with MNPS and RVSM should insert , after “S” in item \n10 of their ICAO Flight Plan, the letter(s):\na. W\nb. X\nc. XR\nd. XW",
+          "document": "Flight planning and monitoring",
+          "page": 209,
+          "chunk_id": 537
+        },
+        {
+          "text": "le track and distance from N57 W030 to N55 W040 are ............. (T)\nand ..............\n10. The ETA at N55 W040 is .............\n11.  At CARPE (N5305.0 W05405.0) the aircraft leaves the ..................... CTA /................. FIR \nand enters ...................... CTA/.................... FIR.\n12. The distance from CARPE to REDBY (N5215.0 W05636.1) is ............... NM.\n13. What does RVSM means?\n14. What does MNPS means?",
+          "document": "Flight planning and monitoring",
+          "page": 199,
+          "chunk_id": 515
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What does ETOPS stand for?",
+      "category": "simple_factual",
+      "answer": "Twin Operations",
+      "chunks": [
+        {
+          "text": "8\n115\nMRJT Additional Procedures 8MRJT Additional Procedures\nFigure 8.2  ETP for ETOPS",
+          "document": "Flight planning and monitoring",
+          "page": 121,
+          "chunk_id": 297
+        },
+        {
+          "text": "Twin Operations (ETOPS). \nApproved ETOPS requires the calculation of PETs between adequate airfields.",
+          "document": "Flight planning and monitoring",
+          "page": 249,
+          "chunk_id": 657
+        },
+        {
+          "text": "is the most limiting ETOPS ETP/CP.\nThus:\n• At this position it is the same engine-out flight time to airfields at C or E,  \n and\n•  The flight planned fuel from this point must be equal to or greater than the Critical Fuel \nto C or E. If it is not then the extra fuel required must be loaded.",
+          "document": "Flight planning and monitoring",
+          "page": 120,
+          "chunk_id": 296
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is a SID?",
+      "category": "simple_factual",
+      "answer": "page': 158",
+      "chunks": [
+        {
+          "text": "information does \nnot assure clearance above or around terrain or man-made structures. There may be higher \nuncharted terrain or man-made structures within the vicinity. Terrain information is useful \nfor visual orientation and general visualization of terrain. It does not replace the minimum \naltitudes dictated by the airway and air route structure.\nJM - SID and STAR Legend\nAs the examination will include questions on selected Standard Instrument and Standard \nTerminal Arrival charts the student must have a thorough knowledge of this legend.\nThe charts provide a graphical  (i.e. not to scale) illustration of the governing authority’s \nprescribed procedures .",
+          "document": "Flight planning and monitoring",
+          "page": 158,
+          "chunk_id": 407
+        },
+        {
+          "text": "ignator assigned to the route or route segment e.g. UB37, R14.\n•  Where appropriate enter the coded designator assigned to a standard instrument \ndeparture route (SID) or standard arrival route (STAR) e.g. OCK 1C, MAY 1J.\n• POINTS OF CHANGE  (2 TO 11 CHARACTERS)\nEnter:\n•  The coded designator  (2 to 5 characters) assigned to the point, e.g. EX, MAY, LOVEL, \nPORGY, SCROD.",
+          "document": "Flight planning and monitoring",
+          "page": 216,
+          "chunk_id": 555
+        },
+        {
+          "text": "aulle.\n What is the distance to Abbeville on SID ABB 8 A?\na 72 NM\nb. 74 NM\nc. 72.5 NM\nd. 74.5 NM",
+          "document": "Flight planning and monitoring",
+          "page": 306,
+          "chunk_id": 786
+        }
+      ],
+      "retrieval_hit": false,
+      "faithful": false,
+      "hallucinated": true
+    },
+    {
+      "question": "What is a STAR?",
+      "category": "simple_factual",
+      "answer": "OCK 1D",
+      "chunks": [
+        {
+          "text": "t.\n32.  HOLDING PATTERNS. Refer to respective STAR/ARRIVAL charts for holding information. \n(see south of DIEPPE).",
+          "document": "Flight planning and monitoring",
+          "page": 183,
+          "chunk_id": 477
+        },
+        {
+          "text": "tion to the LON  and OCK  VOR/DME  \nbeacons\ni.  Decode SLP.\nj.  Explain the symbols defined by the 275 radial (R275°) at 12 NM from the OCK  VOR.\nk.  State the speed limiting procedures for this STAR.\nl.  What is the planned possible descent clearance for the OCK  1F procedure?\nm.  At what distance would this planned descent start from the OCK VOR/DME?\nn.  With reference to the HONILEY VOR/DME:\n  i. State its callsign.\n  ii. State its frequency.\n  iii. What does “ D“ mean?\no.   Detail the meaning of, and the flight procedure for, the oval pattern located at the OCK \nVOR.\nAnswers are on page 170",
+          "document": "Flight planning and monitoring",
+          "page": 161,
+          "chunk_id": 416
+        },
+        {
+          "text": "10\n155\nQuestions 10Questions\nExample 1 (STAR)\nAnswer the following questions with reference to London Heathrow STAR 10-2E and the \nappropriate legend(s):\na.  Decode *ATIS.\nb.  What is the Transition Level and Altitude? Define both terms and transition layer.\nc.   With reference to the OCKHAM ONE DELTA (OCK 1D)  procedure: What is the descent \nplanning clearance?\nd.  Explain the significance of the symbol \ne.  State the holding speeds in the London TMA.\nf.  What is the elevation of the airfield?\ng.  Decode the triangular symbol at KENET .\nh.   Define the geographical position of KENET  in relation to the LON  and OCK  VOR/DME  \nbeacons\ni.  Decode SLP.\nj.  Explain the symbols defined by the 275 radial (R275°) at 12 NM from the OCK  VOR.\nk.  State the speed limiting procedures for this STAR.",
+          "document": "Flight planning and monitoring",
+          "page": 161,
+          "chunk_id": 415
+        }
+      ],
+      "retrieval_hit": false,
+      "faithful": false,
+      "hallucinated": true
+    },
+    {
+      "question": "What is the definition of cruising level?",
+      "category": "simple_factual",
+      "answer": "Planned cruising level for the first or the whole portion of the route to be flown",
+      "chunks": [
+        {
+          "text": "(e.g. K0830); or\nKnots , expressed as N followed by 4 figures (e.g. N0485); or\nMach Number,  when so prescribed by the appropriate ATS authority, to the nearest hundredth \nof unit Mach, expressed as M followed by 3 figures (e.g. M082)\n• CRUISING LEVEL  (MAXIMUM 5 CHARACTERS)\nINSERT  the planned cruising level for the first or the whole portion of the route to be flown, \nin terms of:\nFlight Level,  expressed as F followed by 3 figures (e.g. F085, F330); or\nStandard Metric Level in tens of metres , when so prescribed by the appropriate ATS authorities, \nexpressed as S followed by 4 figures (e.g. S1130); or",
+          "document": "Flight planning and monitoring",
+          "page": 237,
+          "chunk_id": 615
+        },
+        {
+          "text": "ATC Flight Plan\n12\n234\n12 ATC Flight Plan• CHANGE OF FLIGHT RULES  (MAXIMUM 3 CHARACTERS)\nThe point  at which the change of flight rules is planned, expressed exactly as above as \nappropriate, followed by a space and one of the following :\nVFR if from IFR to VFR  IFR if from VFR to IFR\nExamples: LN VFR\nLN/N0284A050 IFR\n• CRUISE CLIMB  (MAXIMUM 28 CHARACTERS)\nThe letter “C”  followed by an oblique stroke;\nTHEN\nthe point  at which cruise climb is planned to start; expressed exactly as above, followed by an \noblique stroke;\nTHEN\nthe speed  to be maintained during cruise climb , expressed exactly as in a. above, followed \nby the two levels defining the layer to be occupied during cruise climb, each level expressed \nexactly as previously, or on the level above which cruise climb is planned foll",
+          "document": "Flight planning and monitoring",
+          "page": 240,
+          "chunk_id": 627
+        },
+        {
+          "text": "extensions of Danger, Restricted and Prohibited areas. (Avoid them if they \ncannot be overflown).\n• The vertical extensions of the types of airspace.\n•  The highest ground or obstacle within the promulgated distances either side of the planned \ntrack.\n• The ICAO Standard Semi-circular Cruising Levels. (See Figure 9.1 )\nThe Minimum Grid Area Altitudes (Grid MORA)\nThese are printed on the chart have already been referred to. These could be used:\n• As a rapid means of assessing the appropriate Flight Level/Altitude.\n•  As a means of cross-checking terrain clearance values that have been obtained using the \nstated methods.\n•  As a rapid means of re-assessing safe clearance of terrain, e.g. when a pilot becomes unsure \nof his exact position in relation to his intended track.\nStudents will be r",
+          "document": "Flight planning and monitoring",
+          "page": 138,
+          "chunk_id": 352
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is a waypoint?",
+      "category": "simple_factual",
+      "answer": "DCT between successive points",
+      "chunks": [
+        {
+          "text": "10\n151\nAirways 10Airways\nMaximum Authorized Altitude (MAA)\nA published altitude representing the maximum usable altitude or flight level for an airspace \nstructure or route segment.\nE  means that even altitudes/flight levels , in thousands of feet, are used in the arrow’s direction \nand odd altitudes/flight levels  in the opposite; contrary to ICAO Semi-circular rules.\nO  means that odd altitudes/flight levels , in thousands of feet, are used in the arrow’s direction. \nIt is used only on one-way airways.\nE  and O indicates that all altitudes, even and odd, are available in the indicated direction.\nPPR  means that Prior Permission is Required from ATC for flight in the arrow’s direction.\nAirway Navaid/Reporting Point Bypass\nThe symbols depicting the bypassing of a navaid or reporting point",
+          "document": "Flight planning and monitoring",
+          "page": 157,
+          "chunk_id": 399
+        },
+        {
+          "text": "lights operating \nin areas outside those latitudes the tracks shall be defined by significant points formed by the \nintersection of parallels of latitude with meridians normally spaced at 20 degrees of longitude. \nThe distance between significant points shall, as far as possible, not exceed one hour’s flight \ntime. Additional significant points shall be established as deemed necessary.\nFor flights operating predominantly in a north-south direction, define tracks by reference to \nsignificant points formed by the intersection of whole degrees of longitude with specified \nparallels of latitude which are spaced at 5 degrees.\nINSERT  DCT between successive points unless both points are defined by geographical co- \nordinates or by bearing and distance.",
+          "document": "Flight planning and monitoring",
+          "page": 238,
+          "chunk_id": 620
+        },
+        {
+          "text": "10\n173Answers\nAnswers 10\n  Missed Approach Point (MAPt) . That point in an instrument approach procedure at \nor before which the prescribed missed approach procedure must be initiated to ensure \nminimum obstacle clearance.\n  Missed Approach Procedure . The procedure to be followed if the approach cannot be \ncontinued. (Ref. ICAO Doc 9365-AN/910, 2nd Ed., 1991)\nt.  ALS out = approach lights out of service; TDZ or CL out = Touchdown lights or centre \nline lights out of service.\nu. 3°; 803 ft/min\nv. The MAP or MAPt is at .5 NM from the ILL ILS DME, which is .5 NM from the threshold.\nw. 800 m and 600 m.\nx.  Visibility is the ability, as determined by atmospheric conditions and expressed in \nunits of distance, to see and identify prominent unlighted objects by day and night.  \n(ICAO Doc 4444-RA",
+          "document": "Flight planning and monitoring",
+          "page": 179,
+          "chunk_id": 463
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is the definition of route?",
+      "category": "simple_factual",
+      "answer": "The first cruising speed and the first cruising level , without a space between them",
+      "chunks": [
+        {
+          "text": "own obstacle clearance within \n10 NM of the route centre line.",
+          "document": "Flight planning and monitoring",
+          "page": 156,
+          "chunk_id": 398
+        },
+        {
+          "text": "ght plan submitted before departure, the estimated off-block time,\nOR,  for a flight plan received from an aircraft in flight, the actual or estimated time over the \nfirst point of the route to which the flight plan applies.\nItem 15: Route\nINSERT  the first cruising speed  and the first cruising level , without a space between them.\nTHEN , following the arrow,\nINSERT  the route description.\n• CRUISING SPEED  (MAXIMUM 5 CHARACTERS)\nINSERT  the True Airspeed for the first or the whole of the cruising portion of the flight, in \nterms of:\nKilometres per hour , expressed as K followed by 4 figures (e.g. K0830); or\nKnots , expressed as N followed by 4 figures (e.g. N0485); or\nMach Number,  when so prescribed by the appropriate ATS authority, to the nearest hundredth \nof unit Mach, expressed as M",
+          "document": "Flight planning and monitoring",
+          "page": 237,
+          "chunk_id": 614
+        },
+        {
+          "text": "Airways\n10\n154\n10 AirwaysControlled Airspace  is airspace of defined dimensions within which Air Traffic Control Service  \nis provided to IFR and VFR flights in accordance with the airspace classification A, B, C, D and E. \nThus an Air Traffic Control Service  provides the much more complete service of:\n• Preventing collisions between aircraft.\n• Preventing collisions on the manoeuvring area between aircraft and obstructions.\n• Expediting and maintaining an orderly flow of air traffic.\n•  LOWER ATS ROUTES - (CONDITIONAL ROUTES (CDR)).\nThese routes are usable only under specified conditions. (See ENR 1.1.1.1 para 1.5 and ENR \n3.2.2.1)\n•  UPPER ATS ROUTES  from FL245 to FL460. The route designator is always preceded by U, \ne.g. UA1, UB40.\nRef. E(HI)4 : See UG1 Upper ATS route, 295 and 111 ra",
+          "document": "Flight planning and monitoring",
+          "page": 160,
+          "chunk_id": 413
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is AIP?",
+      "category": "simple_factual",
+      "answer": "Air Information Publication",
+      "chunks": [
+        {
+          "text": "l aviation \nauthority of that country (CAA, FAA, DGAC, etc). It is this national aviation authority which is \nthe primary source.\nThese primary source documents are:\nAir Information Publication (AIP) . A publication issued by or with the authority of a State and \ncontaining aeronautical information of a lasting character essential to air navigation.\nThe United Kingdom Air Information Publication is an example.\nAIP Supplements.  Temporary changes to the information contained in the AIP which are \npublished by means of special pages.\nIn the UK these are printed on yellow paper and filed in the AIP SUPPLEMENT SECTION of the \nUK AIP, GENERAL (GEN) volume.\nNOTAM . A notice distributed by means of telecommunications containing information \nconcerning the establishment, condition or change in any",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 21
+        },
+        {
+          "text": "f the \nLocation Indicator, particularly when filing a Flight Plan (CA48), where the entries for departure, \ndestination and diversion airfields, and FIR/UIR boundaries, are represented by a particular \nfour-letter code.\nAIP GEN - NOTAMS (Notices to Airmen)  \n(Ref. UK AIP GEN 3.1)\nAll operationally significant information not covered by AIP Amendment or AIP Supplement \nwill be issued as a NOTAM.\nAll operationally significant changes issued as Aeronautical Regulation and Control (AIRAC) \nAIP Amendments, AIP Supplements or Aviation Information Circulars (AIC) will be additionally \nannounced by “Trigger” NOTAMS, which remain valid for 15 days after a permanent change \nand for the complete duration of any temporary change or condition.\nThree categories of NOTAMS are disseminated by the Aeronaut",
+          "document": "Flight planning and monitoring",
+          "page": 11,
+          "chunk_id": 28
+        },
+        {
+          "text": "Air Information Publications\n1\n4\n1 Air Information PublicationsFormat of an AIP\nThe format of an AIP produced by an ICAO contracting state conforms to a common standard \nin accordance with the Standards and Recommended Practices (SARP) of Annex 15 to the \nConvention on International Civil Aviation and with the Aeronautical Information Services \nManual (ICAO Doc 8126). Thus the Air Information Publication United Kingdom is a typical \nreference document. It is divided into:\n• VOLUME I - AIP PART 1, GENERAL (GEN) and AIP SUPPLEMENTS (AIP SUP)\n• VOLUME II - AIP PART 2, EN ROUTE (ENR)\n• VOLUME III - AIP PART 3, AERODROMES (AD)\nAIP Gen - Location Indicators\nGEN 2.4 - LOCATION INDICATORS\nENCODE\nLocation Indicator Location Indicator Location Indicator\nAberdeen EGPD Culdrose EGDR Hucknall EGNA\nAber",
+          "document": "Flight planning and monitoring",
+          "page": 10,
+          "chunk_id": 24
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is a navigation log?",
+      "category": "simple_factual",
+      "answer": "a nflight plan form",
+      "chunks": [
+        {
+          "text": "n addition to the \nlanguage(s) of the State concerned. Note: The Model Flight Plan Form in Appendix 2 is printed \nin English and one other of the languages of the Organization for illustration purposes.\nOperators and air traffic services units should comply with the instructions for completion of a \nflight plan form and a repetitive flight plan listing form given in Appendix 2. \nNote: The instructions for completing a flight plan form given in Appendix 2 may be conveniently \nprinted on the inside cover of flight plan form pads, or posted in briefing rooms.\nAn operator unable to satisfy a prescribed route or area RNP* should, prior to departure, \nadvise ATC of the RNP* types the aircraft is certified to meet.\n(* Required Navigation Performance (RNP) is a statement of the navigation performa",
+          "document": "Flight planning and monitoring",
+          "page": 231,
+          "chunk_id": 589
+        },
+        {
+          "text": "ation of the \naircraft position relative to track.\n•  It is highly desirable that the navigation system employed for the provision of steering \nguidance is capable of being coupled to the auto-pilot.",
+          "document": "Flight planning and monitoring",
+          "page": 200,
+          "chunk_id": 518
+        },
+        {
+          "text": "ir Navigation Obstacles \nand Aerial Sporting and Recreational Activities.\nIn many operations offices and flight planning rooms a lot of this information is available on \nwall boards, often in the form of maps. Also, much of it will be available on printed maps and \ncharts, such as those produced by Jeppesen and AERAD, amongst others.\nHowever, these are secondary sources. Jeppesen and AERAD (and others) are not the authority \non airspace, frequencies, and navigation aids. They merely print and reproduce, in an easily \naccessible form, information extracted from documents produced by the national aviation \nauthority of that country (CAA, FAA, DGAC, etc). It is this national aviation authority which is \nthe primary source.\nThese primary source documents are:\nAir Information Publication (AIP)",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 20
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is the purpose of pre-flight planning?",
+      "category": "simple_factual",
+      "answer": "ensure that the planning of flights is based only upon:",
+      "chunks": [
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "plans?\n 1)  They can file the flight plan for you.\n 2)   In the event of an in-flight re-routing computer automatically generates a \nnew flight plan.\na 1 only\nb. 2 only\nc. Neither\nd. Both",
+          "document": "Flight planning and monitoring",
+          "page": 295,
+          "chunk_id": 754
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you calculate the required fuel for a flight?",
+      "category": "applied",
+      "answer": "Fuel Policy and Fuel Monitoring",
+      "chunks": [
+        {
+          "text": "fuel that should remain (in hundreds of kilogrammes) overhead the waypoint \n(i.e. 4500 kg, 4300 kg, 3800 kg, etc). All that the pilot has to do is check as he passes over each \nwaypoint that the fuel remaining is not less than the flight plan fuel and he then knows that \nhe has sufficient to complete the trip and arrive with appropriate reserves.",
+          "document": "Flight planning and monitoring",
+          "page": 36,
+          "chunk_id": 98
+        },
+        {
+          "text": "2\n23\nFuel Policy and Fuel Monitoring 2Fuel Policy and Fuel Monitoring\nUniversal Application of Fuel Policy\nYou are shortly about to start practical planning examples on the Single-engine Piston, the \nMulti-engine Piston and the Medium Range Jet Transport aircraft. As you will find out, we \nenter various tables and graphs for these aircraft types and, from these, we are able to work \nout how much fuel will be used for a particular length of flight under different conditions of \naircraft weight, air temperature and wind component. In general, these predictions are quite \naccurate as long as the meteorological conditions experienced are close to the forecast values \nused to produce the plan. We call this the Trip Fuel .\nOn its own, however, this is not enough. If we had just the trip fuel on",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 75
+        },
+        {
+          "text": "500 kg; the wind component is \n-30 kt and the trip distance 1600 NGM. Calculate:\na. The % Surplus Fuel Burn. ..................%\nb.  The Break Even Fuel Price Destination Airport if the Fuel Price at Departure Airport is \n75 cents/US.gal.  ..................cents\nExample 12\nAn aircraft is to fly a .74 Mach cruise at FL310, ISA +15°C with a Landing Weight (Without \nTankered Fuel) of 40 000 kg. The sector distance is 1050 ngm, wind component +35 kt. Calculate:\na. The % Surplus Fuel Burn. ....................%\nb.  The Break Even Fuel Price at Destination if the Fuel price at Departure is 85  \ncents/US.gal.....................cents\nAnswers to Examples 11 & 12 on page 121",
+          "document": "Flight planning and monitoring",
+          "page": 126,
+          "chunk_id": 314
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What steps are involved in filing a flight plan?",
+      "category": "applied",
+      "answer": "(1) They can file the flight plan for you. (2) In the event of an in-flight re-routing computer automatically generates a nnew flight plan.",
+      "chunks": [
+        {
+          "text": "plans?\n 1)  They can file the flight plan for you.\n 2)   In the event of an in-flight re-routing computer automatically generates a \nnew flight plan.\na 1 only\nb. 2 only\nc. Neither\nd. Both",
+          "document": "Flight planning and monitoring",
+          "page": 295,
+          "chunk_id": 754
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "um basic information to provide a flight plan:\nExamples of required information:\n Aircraft type  Block time\n Departure and  Destination.\n Cruise mode  Traffic load required\nHowever great care must be taken to ensure that the correct information is loaded. Remember-\n“garbage in, garbage out”.\nFigure 8.3  shows a printout of a trip from Gatwick (EGKK) to Frankfurt (EDDF).",
+          "document": "Flight planning and monitoring",
+          "page": 128,
+          "chunk_id": 320
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "When should a pilot file a flight plan?",
+      "category": "applied",
+      "answer": "In the event of an in-flight re-routing computer automatically generates a nnew flight plan.",
+      "chunks": [
+        {
+          "text": "plans?\n 1)  They can file the flight plan for you.\n 2)   In the event of an in-flight re-routing computer automatically generates a \nnew flight plan.\na 1 only\nb. 2 only\nc. Neither\nd. Both",
+          "document": "Flight planning and monitoring",
+          "page": 295,
+          "chunk_id": 754
+        },
+        {
+          "text": "ATS units. These flights must be operated on the same day(s) of consecutive \nweeks and on at least 10 occasions, or every day over a period of at least 10 consecutive days. \nThe elements of each flight shall have a high degree of stability.\nFiled flight plan : The flight plan as filed with an ATS unit by the pilot or a designated \nrepresentative, without any subsequent changes.\nCurrent flight plan : The flight plan, including changes, if any, brought about by subsequent \nclearances.\nEstimated elapsed time : The estimated time required to proceed from one significant point \nto another.\nEstimated off-block time : The estimated time at which the aircraft will commence movement \nassociated with departure.\nEstimated time of arrival : For IFR flights, the time at which it is estimated that the a",
+          "document": "Flight planning and monitoring",
+          "page": 213,
+          "chunk_id": 545
+        },
+        {
+          "text": "12\n207\nATC Flight Plan 12ATC Flight Plan\nIntroduction \nReferences: ICAO Doc 4444-RAC/501; UK AIP ENR 1.10-FLIGHT PLANNING (25 Jul 13)\nWhat is an ATC Flight Plan?\nIt is simply advance notice of a pilot’s intentions for a flight in terms of route (including departure \nand destination), cruising level and speed and information about the crew and passengers. It \nis in a set format to ensure completeness of information and compatibility with electronic data \ntransfer between ATS and other units.\nStudents are required to understand, and answer questions on, all aspects of ATC Flight Plans, \nboth individual and Repetitive Flight Plans (RPLs).\n• Type of plan - individual or repetitive\n• The format of an ICAO flight plan.\n• The information required for the plan.\n• How to complete, file, cancel or a",
+          "document": "Flight planning and monitoring",
+          "page": 213,
+          "chunk_id": 543
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you determine the optimal cruising altitude?",
+      "category": "applied",
+      "answer": "131nEstablishment of Minimum Flight Altitudes",
+      "chunks": [
+        {
+          "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131\nEstablishment of Minimum Flight Altitudes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132\nThe Minimum Grid Area Altitudes (Grid MORA)  . . . . . . . . . . . . . . . . . . . . . . . . . . 132\nChoosing Cruising Levels  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133\nAltimeter Errors and Corrections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 134\nExercise 1  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 137\nExercise 2   -  Flight Log . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 138\nVFR Exercise 2  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .",
+          "document": "Flight planning and monitoring",
+          "page": 133,
+          "chunk_id": 336
+        },
+        {
+          "text": "ating altitude\nd. 33 800 ft",
+          "document": "Flight planning and monitoring",
+          "page": 289,
+          "chunk_id": 736
+        },
+        {
+          "text": "distance cruise pressure altitude.\n...............................? \n(Answers page 80)",
+          "document": "Flight planning and monitoring",
+          "page": 83,
+          "chunk_id": 207
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What factors affect flight planning?",
+      "category": "applied",
+      "answer": "Conditions under which the flight is to be conducted",
+      "chunks": [
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "MRJT Additional Procedures\n8\n122\n8 MRJT Additional ProceduresComputer Flight Plans - Introduction\nThe majority of airlines use computer flight planning, either their own systems or those \nprovided, for example, by SITA or Jeppesen. The following is representative of the type of \ninformation programmed into a computer database:\nCo-ordinates and identification of all likely navigation beacons, waypoints and airfields. \nMeteorological data, which is automatically loaded from a main International Met. Office (e.g. \nBracknell).\nThe airline’s standard routes.\nATC routes, airways, SIDS and STARS, and the twice daily North Atlantic Tracks which are \nautomatically loaded.\nThe operator’s fuel management data and policy.\nThe structural limits and performance details of all the aircraft types operated",
+          "document": "Flight planning and monitoring",
+          "page": 128,
+          "chunk_id": 318
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What should be checked during pre-flight planning?",
+      "category": "applied",
+      "answer": "The conditions under which the flight is to be conducted",
+      "chunks": [
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "um basic information to provide a flight plan:\nExamples of required information:\n Aircraft type  Block time\n Departure and  Destination.\n Cruise mode  Traffic load required\nHowever great care must be taken to ensure that the correct information is loaded. Remember-\n“garbage in, garbage out”.\nFigure 8.3  shows a printout of a trip from Gatwick (EGKK) to Frankfurt (EDDF).",
+          "document": "Flight planning and monitoring",
+          "page": 128,
+          "chunk_id": 320
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you select an alternate aerodrome?",
+      "category": "applied",
+      "answer": "AERODROMES",
+      "chunks": [
+        {
+          "text": "has been assigned to the alternate aerodrome,\nINSERT ZZZZ  and SPECIFY  in item 18 the name of the aerodrome, preceded by ALTN/....",
+          "document": "Flight planning and monitoring",
+          "page": 240,
+          "chunk_id": 630
+        },
+        {
+          "text": "odrome Categorization  \n(Ref. UK AIP AD 1.4)\nIn the UK there are two types of civil aerodrome licence namely, PUBLIC USE LICENCE and \nORDINARY LICENCE.\nAerodromes or heliports operated in accordance with a PUBLIC USE LICENCE must have their \nhours of availability notified in the UK AIP and the aerodrome/heliport must be available to all \noperators on certain equal terms and conditions. However, this does not necessarily mean that \nthe aerodrome is available to all flights without limitation. Aircraft operators must check and \ncomply with the requirements and conditions of use indicated at AD 2 or 3.\nAerodromes or heliports operated in accordance with an ORDINARY LICENCE may accept \nflights operated by the holder of the licence or by those specifically authorized by that licence \nholder. Th",
+          "document": "Flight planning and monitoring",
+          "page": 20,
+          "chunk_id": 56
+        },
+        {
+          "text": "- AIP PART 3, AERODROMES (AD)\nAIP Gen - Location Indicators\nGEN 2.4 - LOCATION INDICATORS\nENCODE\nLocation Indicator Location Indicator Location Indicator\nAberdeen EGPD Culdrose EGDR Hucknall EGNA\nAberporth EGUC Cumbernauld EGPG Humberside EGNJ\nAlderney EGJA\nFigure 1.1 Location indicators\nLocation Indicators  are allocated mainly to licensed aerodromes, Air Control Centres and Flight \nInformation Centres. An indicator comprises four letters; the first two denote the country and \nthe last two the airfield or centre. Thus:\nEG  UNITED KINGDOM  \nEGLL   ,,  London/Heathrow  \nEGTT   ,,  London ATCC(ACC FIC)\nLF  FRANCE  \nLFPG   ,,  Paris/Charles De Gaulle\nED  FEDERAL REPUBLIC OF GERMANY  - civil airfields  \nET    ,,   - military airfields  \nEDD    ,,   - international aerodromes  \nEDDM    ,,    Mu",
+          "document": "Flight planning and monitoring",
+          "page": 10,
+          "chunk_id": 25
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What are the requirements for international flight planning?",
+      "category": "applied",
+      "answer": "The conditions under which the flight is to be conducted",
+      "chunks": [
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "um basic information to provide a flight plan:\nExamples of required information:\n Aircraft type  Block time\n Departure and  Destination.\n Cruise mode  Traffic load required\nHowever great care must be taken to ensure that the correct information is loaded. Remember-\n“garbage in, garbage out”.\nFigure 8.3  shows a printout of a trip from Gatwick (EGKK) to Frankfurt (EDDF).",
+          "document": "Flight planning and monitoring",
+          "page": 128,
+          "chunk_id": 320
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you calculate the estimated time en route?",
+      "category": "applied",
+      "answer": "na.",
+      "chunks": [
+        {
+          "text": "ght plan submitted before departure, the estimated off-block time,\nOR,  for a flight plan received from an aircraft in flight, the actual or estimated time over the \nfirst point of the route to which the flight plan applies.\nItem 15: Route\nINSERT  the first cruising speed  and the first cruising level , without a space between them.\nTHEN , following the arrow,\nINSERT  the route description.\n• CRUISING SPEED  (MAXIMUM 5 CHARACTERS)\nINSERT  the True Airspeed for the first or the whole of the cruising portion of the flight, in \nterms of:\nKilometres per hour , expressed as K followed by 4 figures (e.g. K0830); or\nKnots , expressed as N followed by 4 figures (e.g. N0485); or\nMach Number,  when so prescribed by the appropriate ATS authority, to the nearest hundredth \nof unit Mach, expressed as M",
+          "document": "Flight planning and monitoring",
+          "page": 237,
+          "chunk_id": 614
+        },
+        {
+          "text": "apsed time” is the time elapsed from:\na.  take-off until reaching the IAF (initial approach fix) of the destination \naerodrome\nb. taxi-out prior to take-off until the IAF\nc. take-off until landing\nd. taxi-out prior to take-off until completion of taxiing after landing\n183. Reference ICAO flight plan.\n  What is the maximum estimated elapsed time or distance between points on track \nmentioned in item15 of the flight plan, for flights outside designated ATS routes?\na. 30 min / 200 NM\nb. 60 min / 370 NM\nc. 90 min / 370 km\nd. 120 min / 370 NM\n184. Reference item 19 of the ICAO flight plan, endurance is:\na. maximum flight time plus 45 minutes holding fuel\nb. maximum flight time plus 30 minutes holding fuel\nc. fuel endurance of the aircraft\nd. total usable fuel required for the flight\n185. Refere",
+          "document": "Flight planning and monitoring",
+          "page": 312,
+          "chunk_id": 804
+        },
+        {
+          "text": "15\n307\nQuestions 15Questions\n187. The navigation plan reads:\n Trip fuel  100 kg.\n Flight time  1 h 35 min.\n Taxi fuel  3 kg.\n Block fuel  181 kg.\n How should “endurance” be shown on the flight plan?\na 0204\nb. 0240\nc. 0249\nd. 0252\n188.  The planned departure time from the parking area is 1815 UTC. The estimated take-\noff time is 1825 UTC.\n The IFR flight plan must be filed with ATC at the  latest at:\na 1725 UTC\nb. 1715 UTC\nc. 1745 UTC\nd. 1755 UTC\n189.  “Total Elapsed Time” for an IFR flight, when filling in the ICAO flight plan at box 16, \nis the time elapsed from:\na take-off until landing\nb.  take-off until reaching the IAF ( Initial Approach Fix) of the destination \naerodrome\nc. taxi-out prior to take-off until taxiing after landing\nd. taxiing until the IAF (Initial Approach Fix) of the d",
+          "document": "Flight planning and monitoring",
+          "page": 313,
+          "chunk_id": 806
+        }
+      ],
+      "retrieval_hit": false,
+      "faithful": false,
+      "hallucinated": true
+    },
+    {
+      "question": "What information is required in a flight plan?",
+      "category": "applied",
+      "answer": "basic information to provide a flight plan",
+      "chunks": [
+        {
+          "text": "um basic information to provide a flight plan:\nExamples of required information:\n Aircraft type  Block time\n Departure and  Destination.\n Cruise mode  Traffic load required\nHowever great care must be taken to ensure that the correct information is loaded. Remember-\n“garbage in, garbage out”.\nFigure 8.3  shows a printout of a trip from Gatwick (EGKK) to Frankfurt (EDDF).",
+          "document": "Flight planning and monitoring",
+          "page": 128,
+          "chunk_id": 320
+        },
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "plans?\n 1)  They can file the flight plan for you.\n 2)   In the event of an in-flight re-routing computer automatically generates a \nnew flight plan.\na 1 only\nb. 2 only\nc. Neither\nd. Both",
+          "document": "Flight planning and monitoring",
+          "page": 295,
+          "chunk_id": 754
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you determine the route of flight?",
+      "category": "applied",
+      "answer": "Select the correct flight level(s)",
+      "chunks": [
+        {
+          "text": "10\n147\nAirways 10Airways\nIntroduction\nTo prepare for the examination students will need Jeppesen’s “Student Pilot Route Manual \nfor Part-Flight Crew Licensing”, or an equivalent approved publication; the selected Jeppesen \ncharts are NOT current  and are NOT to be used for navigation . The manual contains more \ncharts than are usually required for the examinations.\nFor the examination students will, for example, be expected to:\n•  Select routes, and decode and explain the meaning of the symbols, from en route, area, \ndeparture arrival and airfield charts.\n•  Extract, from the above charts, tracks, distances, heights/altitudes, magnetic variation, and \nfrequencies/call signs of navigation facilities etc.\n• Compute heading, ground speed and elapsed time.\n• Select the correct flight level(s)",
+          "document": "Flight planning and monitoring",
+          "page": 153,
+          "chunk_id": 383
+        },
+        {
+          "text": "ATC Flight Plan\n12\n232\n12 ATC Flight PlanAltitude in hundreds of feet , expressed as A followed by 3 figures (e.g. A045, A100); or\nAltitude in tens of metres , expressed as M followed by 4 figures (e.g. M0840); or\nFor uncontrolled VFR flights , the letters VFR.\n• ROUTE (INCLUDING CHANGES OF SPEED, LEVEL AND/OR FLIGHT RULES)\nFlights Along Designated ATS Routes\nINSERT , if the departure aerodrome is located on, or connected to the ATS route, the designator \nof the first ATS route;\nOR,  if the departure aerodrome is not on, or connected to the ATS route, the letters DCT \nfollowed by the point of joining the first ATS route, followed by the designator of the \nATS route.\nTHEN\nINSERT  each point at which either a change of speed or level, a change of ATS route, and/or a \nchange of flight rules i",
+          "document": "Flight planning and monitoring",
+          "page": 238,
+          "chunk_id": 617
+        },
+        {
+          "text": "12\n211\nATC Flight Plan 12ATC Flight Plan\nIf there are no coded designators use:\n• LATITUDE/LONGITUDE\nDEGREES   DEGREES/MINUTES\n(7 characters)   (11 characters)\n56N105W   4715N16005E\n50N075E   6010N06206W or,\n•  BEARING AND DISTANCE  from a navigation aid:  \nFor example SAM090035 indicates a point 35 NM on a bearing of 090°(M) from \nSouthampton VOR.\n \nUse of DCT (Direct)\n•  If a departure airfield is located or connected  to the ATS route then the coded designator \nof that route will be the first entry. If it is not on  or connected to  the ATS route the first \nentry will be DCT followed by the joining point , followed by the designator  of the ATS \nroute. ( Figure 12.2 )\n•  If the destination airfield  is not on  or connected to  an ATS route the last entry will be \nDCT. (Figure 12.3 )\n• U",
+          "document": "Flight planning and monitoring",
+          "page": 217,
+          "chunk_id": 556
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What weather information is needed for flight planning?",
+      "category": "applied",
+      "answer": "The conditions under which the flight is to be conducted, including:",
+      "chunks": [
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "um basic information to provide a flight plan:\nExamples of required information:\n Aircraft type  Block time\n Departure and  Destination.\n Cruise mode  Traffic load required\nHowever great care must be taken to ensure that the correct information is loaded. Remember-\n“garbage in, garbage out”.\nFigure 8.3  shows a printout of a trip from Gatwick (EGKK) to Frankfurt (EDDF).",
+          "document": "Flight planning and monitoring",
+          "page": 128,
+          "chunk_id": 320
+        },
+        {
+          "text": "MRJT Additional Procedures\n8\n122\n8 MRJT Additional ProceduresComputer Flight Plans - Introduction\nThe majority of airlines use computer flight planning, either their own systems or those \nprovided, for example, by SITA or Jeppesen. The following is representative of the type of \ninformation programmed into a computer database:\nCo-ordinates and identification of all likely navigation beacons, waypoints and airfields. \nMeteorological data, which is automatically loaded from a main International Met. Office (e.g. \nBracknell).\nThe airline’s standard routes.\nATC routes, airways, SIDS and STARS, and the twice daily North Atlantic Tracks which are \nautomatically loaded.\nThe operator’s fuel management data and policy.\nThe structural limits and performance details of all the aircraft types operated",
+          "document": "Flight planning and monitoring",
+          "page": 128,
+          "chunk_id": 318
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you calculate the top of descent point?",
+      "category": "applied",
+      "answer": "The maximum consumption rate acceptable is 33.0 US.gal/hnb.",
+      "chunks": [
+        {
+          "text": "5\n67\nMulti-engine Piston Aeroplane (MEP) 5Multi-engine Piston Aeroplane (MEP)\nMEP 1-Descent Fuel, Time and Distance  \n(CAP 697 Figure 3.6)\nThis table works in the same way as the climb table in that one entry will give the fuel, time \nand distance to descend from a pressure altitude (FL) to MSL. If the destination airfield is not at \nMSL, then a second entry is needed to extract data for a hypothetical descent from airfield FL \nto MSL. This data is subtracted from the former to give the actual descent fuel, time, distance.\nDescent Example\n6. Refer to CAP 697 Figure 3.6\n Given: Descend from FL120 OAT -20°C\n To airfield at 4000 ft OAT +0°C \n What is the fuel, time and distance covered in the descent?\n   F  T  D\n FL120\n 4000 ft\n Difference\n With a 20 kt headwind; what is the ground distance c",
+          "document": "Flight planning and monitoring",
+          "page": 73,
+          "chunk_id": 185
+        },
+        {
+          "text": "ROW ILS DME Rwy 09R (11-1).\n The Minimum Descent Altitude (MDA) for an ILS approach, glide slope out, is:\na 405 ft\nb. 480 ft\nc. 275 ft\nd. 200 ft",
+          "document": "Flight planning and monitoring",
+          "page": 304,
+          "chunk_id": 780
+        },
+        {
+          "text": "min. \nWhat is the highest consumption rate acceptable?\na. 33.0 US.gal/h\nb. 37.9 US.gal/h\nc. 30.3 US.gal/h\nd. 21.3 US.gal/h\n6. ATC require a descent from FL270 to FL160 to be level 6 NM before a VOR.\n  If rate of descent is 800 feet per minute, mean ground speed is 256 kt, how far out \nfrom the VOR must descent be started?\na 59 NM\nb. 65 NM\nc. 144 NM\nd. 150 NM",
+          "document": "Flight planning and monitoring",
+          "page": 279,
+          "chunk_id": 711
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What are the procedures for flight plan amendments?",
+      "category": "applied",
+      "answer": "a nflight plan submitted prior to departure should be submitted in person or by telephone to the nair traffic services reporting office at the departure aerodrome",
+      "chunks": [
+        {
+          "text": "s have been made for submission of repetitive flight plans, a \nflight plan submitted prior to departure should be submitted in person or by telephone to the \nair traffic services reporting office at the departure aerodrome. If no such unit exists at the \ndeparture aerodrome, the flight plan should be submitted by telephone or typewriter, or if \nthese means are not available, by radio to the unit serving or designated to serve the departure \naerodrome.\nIn the event of a delay of thirty (30) minutes in excess of the estimated off-block time for a \ncontrolled flight or a delay of one hour for an uncontrolled flight for which a flight plan has \nbeen submitted, the flight plan should be amended or a new flight plan submitted and the old \nflight plan cancelled, whichever is applicable.\nDuring fl",
+          "document": "Flight planning and monitoring",
+          "page": 231,
+          "chunk_id": 591
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "plans?\n 1)  They can file the flight plan for you.\n 2)   In the event of an in-flight re-routing computer automatically generates a \nnew flight plan.\na 1 only\nb. 2 only\nc. Neither\nd. Both",
+          "document": "Flight planning and monitoring",
+          "page": 295,
+          "chunk_id": 754
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you monitor a flight in progress?",
+      "category": "applied",
+      "answer": "Flight planning and monitoring",
+      "chunks": [
+        {
+          "text": "ATPL GROUND TRAINING SERIESFLIGHT PLANNING AND MONITORING",
+          "document": "Flight planning and monitoring",
+          "page": 1,
+          "chunk_id": 0
+        },
+        {
+          "text": "equired for the whole flight?",
+          "document": "Flight planning and monitoring",
+          "page": 90,
+          "chunk_id": 224
+        },
+        {
+          "text": "Warning & Recording\nAutomatic Flight Control\nPower Plant & System Monitoring Instruments\n6 030 Flight Performance & Planning 1 Mass & Balance\nPerformance\n7 030 Flight Performance & Planning 2 Flight Planning & Monitoring\n8 040 Human Performance & Limitations\n9 050 Meteorology\n10 060 Navigation 1 General Navigation\n11 060 Navigation 2 Radio Navigation\n12 070 Operational Procedures\n13 080 Principles of Flight\n14 090 Communications VFR Communications\nIFR Communications",
+          "document": "Flight planning and monitoring",
+          "page": 3,
+          "chunk_id": 7
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What actions should be taken if the flight deviates from the plan?",
+      "category": "applied",
+      "answer": "Paris-Orly to Angouleme",
+      "chunks": [
+        {
+          "text": "12\n221\nQuestions 12Questions\n6.  In the event of a delay in excess of ........ of ....... for a controlled flight, or a delay \nof ......... for an uncontrolled flight for which a flight plan has been submitted, the \nflight plan should be amended or a new flight plan submitted and the old plan \ncancelled, whichever is appropriate.\na. 30 minutes, Estimated Off-block Time, 3 hours\nb. 30 minutes, planned take off time, 1 hour\nc. 60 minutes, planned take off time, 3 hours\nd. 30 minutes, EOBT, 1 hour\n7.  If a pilot lands at an aerodrome other than the destination specified in the flight \nplan, he must:\na.  ensure that all ATSUs which were addressees on the flight plan are notified of \nhis landing\nb.  ensure that the ATSU at the original destination is informed within 60 minutes\nc.  ensure that t",
+          "document": "Flight planning and monitoring",
+          "page": 227,
+          "chunk_id": 576
+        },
+        {
+          "text": "plans?\n 1)  They can file the flight plan for you.\n 2)   In the event of an in-flight re-routing computer automatically generates a \nnew flight plan.\na 1 only\nb. 2 only\nc. Neither\nd. Both",
+          "document": "Flight planning and monitoring",
+          "page": 295,
+          "chunk_id": 754
+        },
+        {
+          "text": "15\n303\nQuestions 15Questions\n163.  A repetitive flight plan (RPL) is filed for a scheduled flight: Paris-Orly to Angouleme, \nParis-Orly as alternate.\n  Following heavy snow falls, Angouleme airport will be closed at the expected time \nof arrival.The airline decides before departure to plan a re-routing of that flight to \nLimoges.\na.  It is not possible to plan another destination and that flight has to be simply \ncancelled that day (scheduled flight and not chartered)\nb.  The airline’s Operations department has to transmit a change to the RPL to \nthe ATC office, at least half an hour before the planned time of departure\nc.  The pilot in command must advise ATC of his intention to divert to Limoges at \nleast 15 minutes before the planned time of arrival\nd.  The RPL must be cancelled for tha",
+          "document": "Flight planning and monitoring",
+          "page": 309,
+          "chunk_id": 792
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you calculate fuel burn rate?",
+      "category": "applied",
+      "answer": "104, chunk_id: 255",
+      "chunks": [
+        {
+          "text": "able with 3544nm and extract corresponding Gross Weight, 52100kg.  Fuel burn A  to B is 53500 - 52100 = 1400kg.\n8  5. Copy Minus NAM from LINE 1 into Cruise Value Line 2.  3544.  Subtract 398nam = 3146nm.  \n9  6. Enter table with 3146nm and extract corresponding Gross Weight, 50000kg.  Fuel burn B to C is 52100 - 50000 = 2100kg.\n10  7. Repeat the process.\n11  Note: a) The  percentage  increase or decrease in Fuel Required for 10 (C above or below ISA.\n12 b) The increase or decrease in TAS by 1kt per 1 (C above or below ISA.",
+          "document": "Flight planning and monitoring",
+          "page": 104,
+          "chunk_id": 255
+        },
+        {
+          "text": "onal Flight Manual. We will practise this process in Chapters \n3, 4 and 5. Final reserve fuel is a simple calculation based on 30 (jet/turboprop) or 45 (piston) \nminutes hold at endurance speed. However, contingency fuel can vary depending on the type \nof operation.\nContingency Fuel  is the higher of A and B below:\nA\nAs agreed with the appropriate national aviation authority:\n•  5% of the planned trip fuel, or, in the event of in-flight replanning, 5% of the trip fuel for the \nremainder of the flight. No en route alternative is needed in this case.\n•  If the operator has a fuel monitoring programme and agrees a particular method of \nstatistical analysis which includes standard deviations (the details need not concern us for \nthe purposes of the ATPL), this can be reduced yet further by agr",
+          "document": "Flight planning and monitoring",
+          "page": 33,
+          "chunk_id": 90
+        },
+        {
+          "text": "Point of Safe Return (PSR)\n14\n266\n14 Point of Safe Return (PSR)Derivation of the Formula for Variable Fuel Flows\nIn the preceding examples Safe Endurance was quoted in hours and minutes. If it is given as \nan amount of fuel then the following formula, which takes into account individual sector fuel \nflows altitudes, temperatures, wind components and engine configurations, may be used:\nLET d  = Distance to the PSR\n F  = Fuel available (less reserves) for calculation of the PSR\n CO  = The fuel consumption OUT  to the PSR, kg/NM\n CH  = The fuel consumption HOME  from the PSR, kg/NM\n Consumption in kg/NM is usually obtained by: FUEL FLOW \nGROUND SPEED\nOr  SECTOR FUEL \nSECTOR DISTANCE\nFUEL USED TO THE PSR + FUEL USED HOME FROM THE PSR = F\nTherefore: dCO + dCH =  F \n  d(CO + CH) =  F \n  d   =",
+          "document": "Flight planning and monitoring",
+          "page": 272,
+          "chunk_id": 696
+        }
+      ],
+      "retrieval_hit": false,
+      "faithful": false,
+      "hallucinated": true
+    },
+    {
+      "question": "What are the considerations for route selection?",
+      "category": "applied",
+      "answer": "Realistic fuel flows expressed as kg/h, lb/h or gal/h",
+      "chunks": [
+        {
+          "text": "d down to that required \nbetween Decision Point and Destination.",
+          "document": "Flight planning and monitoring",
+          "page": 42,
+          "chunk_id": 117
+        },
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "sense for the time of year\n• The track directions and distances are sensible\n• The wind velocities and average wind component tally with the meteorological forecast\n• The alternates chosen are acceptable\n• The method of cruise control is appropriate\nIf the route is a new one, or one rarely flown, then refer to the aircraft’s Simplified Fuel Planning \nData to verify the computerized plan or use agreed “Rules of Thumb” based upon average fuel \nflows and cruise TAS/ground speeds.",
+          "document": "Flight planning and monitoring",
+          "page": 132,
+          "chunk_id": 334
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do you determine the appropriate airspeed for cruise?",
+      "category": "applied",
+      "answer": "Optimum Cruise Altitude",
+      "chunks": [
+        {
+          "text": "sense for the time of year\n• The track directions and distances are sensible\n• The wind velocities and average wind component tally with the meteorological forecast\n• The alternates chosen are acceptable\n• The method of cruise control is appropriate\nIf the route is a new one, or one rarely flown, then refer to the aircraft’s Simplified Fuel Planning \nData to verify the computerized plan or use agreed “Rules of Thumb” based upon average fuel \nflows and cruise TAS/ground speeds.",
+          "document": "Flight planning and monitoring",
+          "page": 132,
+          "chunk_id": 334
+        },
+        {
+          "text": "ithin 2000 ft of the optimum altitude \nLRC approximates to a .74 Mach cruise.\nIf the aircraft is flown above or below the optimum altitude for LRC or  .78 Mach Table 4.1 \ntabulates the fuel penalty incurred as a % correction.\nExample 1\nEnter the Optimum Cruise Altitude table with the Cruise Mass (Weight) 56 800 kg, move \nvertically up to the selected cruise profile, LRC/.74 Mach or .78 Mach, and move horizontally to \nread the optimum cruise pressure altitude.\n...............................?\n...............................?\nNB.  There are two axis on Fig 4.1 used for the Weight - Brake Release Weight (Take-off Weight) \nor Cruise Weight.  Be sure to get the right one!",
+          "document": "Flight planning and monitoring",
+          "page": 82,
+          "chunk_id": 203
+        },
+        {
+          "text": "Weight (Take-off Weight) \nor Cruise Weight.  Be sure to get the right one!",
+          "document": "Flight planning and monitoring",
+          "page": 82,
+          "chunk_id": 204
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What are the procedures for flight plan closure?",
+      "category": "applied",
+      "answer": "In the event of a delay of thirty (30) minutes in excess of the estimated off-block time for a ncontrolled flight or a delay of one hour for an uncontrolled flight for which a flight plan has nbeen submitted, the flight plan should be amended or a new flight plan submitted and the old plan cancelled, whichever is applicable.",
+      "chunks": [
+        {
+          "text": "s have been made for submission of repetitive flight plans, a \nflight plan submitted prior to departure should be submitted in person or by telephone to the \nair traffic services reporting office at the departure aerodrome. If no such unit exists at the \ndeparture aerodrome, the flight plan should be submitted by telephone or typewriter, or if \nthese means are not available, by radio to the unit serving or designated to serve the departure \naerodrome.\nIn the event of a delay of thirty (30) minutes in excess of the estimated off-block time for a \ncontrolled flight or a delay of one hour for an uncontrolled flight for which a flight plan has \nbeen submitted, the flight plan should be amended or a new flight plan submitted and the old \nflight plan cancelled, whichever is applicable.\nDuring fl",
+          "document": "Flight planning and monitoring",
+          "page": 231,
+          "chunk_id": 591
+        },
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "12\n221\nQuestions 12Questions\n6.  In the event of a delay in excess of ........ of ....... for a controlled flight, or a delay \nof ......... for an uncontrolled flight for which a flight plan has been submitted, the \nflight plan should be amended or a new flight plan submitted and the old plan \ncancelled, whichever is appropriate.\na. 30 minutes, Estimated Off-block Time, 3 hours\nb. 30 minutes, planned take off time, 1 hour\nc. 60 minutes, planned take off time, 3 hours\nd. 30 minutes, EOBT, 1 hour\n7.  If a pilot lands at an aerodrome other than the destination specified in the flight \nplan, he must:\na.  ensure that all ATSUs which were addressees on the flight plan are notified of \nhis landing\nb.  ensure that the ATSU at the original destination is informed within 60 minutes\nc.  ensure that t",
+          "document": "Flight planning and monitoring",
+          "page": 227,
+          "chunk_id": 576
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What trade-offs should be considered when choosing between a direct route and airways?",
+      "category": "higher_order",
+      "answer": "Direct route is airspace of defined dimensions",
+      "chunks": [
+        {
+          "text": "3.9) to AGEN (N4353.3  E00052.4)\n What is the best airway route above FL200?\na. UB19 POI UB195\nb. UH40 FOUCO UH20 PERIG UA34\nc. UA34\nd. UB19 CGC UA25",
+          "document": "Flight planning and monitoring",
+          "page": 302,
+          "chunk_id": 774
+        },
+        {
+          "text": "Airways\n10\n154\n10 AirwaysControlled Airspace  is airspace of defined dimensions within which Air Traffic Control Service  \nis provided to IFR and VFR flights in accordance with the airspace classification A, B, C, D and E. \nThus an Air Traffic Control Service  provides the much more complete service of:\n• Preventing collisions between aircraft.\n• Preventing collisions on the manoeuvring area between aircraft and obstructions.\n• Expediting and maintaining an orderly flow of air traffic.\n•  LOWER ATS ROUTES - (CONDITIONAL ROUTES (CDR)).\nThese routes are usable only under specified conditions. (See ENR 1.1.1.1 para 1.5 and ENR \n3.2.2.1)\n•  UPPER ATS ROUTES  from FL245 to FL460. The route designator is always preceded by U, \ne.g. UA1, UB40.\nRef. E(HI)4 : See UG1 Upper ATS route, 295 and 111 ra",
+          "document": "Flight planning and monitoring",
+          "page": 160,
+          "chunk_id": 413
+        },
+        {
+          "text": "Airways\n10\n150\n10 AirwaysRestricted Airspace/Restricted Airspace Designation\nA knowledge of the symbols and abbreviations for the various types of restricted airspace is \nessential.\nAirports\nMemorize the symbols for civil and military airfields.\nAirway and Routes and Centrelines\nA knowledge of the meaning of these symbols is required. In particular note the depiction of:\nAirways.\nTypes of reporting points.\nLF bearings (to the navaid) and radials (from the navaid). \nHolding patterns.\nAirway Information\nNote: in particular, the different designations of airways and routes and minimum clearance \nlimits. For example:\nV168 . Victor (VOR airway) routes/airways are found on US and Canadian Low Level charts, \nwhich are effective up to, but not including, 18 000 ft MSL.\nJ71. Jet routes/airways are",
+          "document": "Flight planning and monitoring",
+          "page": 156,
+          "chunk_id": 395
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How would weather conditions affect the choice of alternate aerodrome?",
+      "category": "higher_order",
+      "answer": "enroute alternative when the appropriate weather reports nor forecasts, or any combination thereof, indicate that, between the anticipated time of nlanding until one hour after the latest possible time of landing, conditions will be at or above nthe planning minima",
+      "chunks": [
+        {
+          "text": "aerodromes which, taking into account the weather \nand any equipment unserviceabilities, are suitable for his intended operation. An aerodrome \nshall only be selected as an ETOPS enroute alternative when the appropriate weather reports \nor forecasts, or any combination thereof, indicate that, between the anticipated time of \nlanding until one hour after the latest possible time of landing, conditions will be at or above \nthe planning minima.\nETOPS - Minimum Equipment List (MEL)\nPrimary system redundancy levels appropriate to ETOPS will be reflected in the MEL. For \naeroplanes in operational service the existing MEL will be re-evaluated and adjusted as \nnecessary  to reflect the primary system redundancy levels required for ETOPS. Primary \nairframe systems are those which have a fundamenta",
+          "document": "Flight planning and monitoring",
+          "page": 116,
+          "chunk_id": 283
+        },
+        {
+          "text": "s, and is sufficiently equipped, to be considered adequate  for his \nplanned ETOPS routes. In particular it should be expected that at the anticipated time of use:\n•  The aerodrome will be available and equipped with the necessary ancillary services, such as \nATC, sufficient lighting, communications, weather reporting, navaids and safety cover, and\n•  At least one let-down aid (ground radar would so qualify) will be available for an instrument \napproach.\nSuitable Airfield . The commander  must satisfy himself on the day, using criteria provided by the \noperator, that he has sufficient adequate aerodromes which, taking into account the weather \nand any equipment unserviceabilities, are suitable for his intended operation. An aerodrome \nshall only be selected as an ETOPS enroute alternative",
+          "document": "Flight planning and monitoring",
+          "page": 116,
+          "chunk_id": 282
+        },
+        {
+          "text": "1\n15\nAir Information Publications 1Air Information Publications\nAerodrome Communication Facilities  \n(Ref. UK AIP AD 2)\nOXFORD/KIDLINGTON\nEGTK AD 2.18 ATS COMMUNICATION FACILITIES\nService\nDesignationCall SignFrequency\n(MHz)Hours of Operation Remarks\n1 2 3 4 5\nAPPOxford \nApproach125.325Mon-Fri 0830-1730 and by arrangement (Winter)Mon-Fri 0730-1630 and by arrangement (Summer)\nTWROxford TowerOxford Ground118.75121.950Mon-Fri 0830-1730 and by arrangement (Winter)Mon-Fri 0730-1630 and by arrangement (Summer)\nAFISOxford Information118.875Sat, Sun & PH0830-1700 (Winter)Sat, Sun & PH 0730-1600 (Summer)\nATISOxford departureInformation121.750Sat, Sun & PH0830-1700 (Winter)Sat, Sun & PH 0730-1600 (Summer)\nFigure 1.9 Aerodrome communication facilities",
+          "document": "Flight planning and monitoring",
+          "page": 21,
+          "chunk_id": 58
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "If the planned cruising altitude is unavailable, how should the pilot adjust the flight plan?",
+      "category": "higher_order",
+      "answer": "a flight plan has been submitted, the nflight plan should be amended",
+      "chunks": [
+        {
+          "text": "12\n221\nQuestions 12Questions\n6.  In the event of a delay in excess of ........ of ....... for a controlled flight, or a delay \nof ......... for an uncontrolled flight for which a flight plan has been submitted, the \nflight plan should be amended or a new flight plan submitted and the old plan \ncancelled, whichever is appropriate.\na. 30 minutes, Estimated Off-block Time, 3 hours\nb. 30 minutes, planned take off time, 1 hour\nc. 60 minutes, planned take off time, 3 hours\nd. 30 minutes, EOBT, 1 hour\n7.  If a pilot lands at an aerodrome other than the destination specified in the flight \nplan, he must:\na.  ensure that all ATSUs which were addressees on the flight plan are notified of \nhis landing\nb.  ensure that the ATSU at the original destination is informed within 60 minutes\nc.  ensure that t",
+          "document": "Flight planning and monitoring",
+          "page": 227,
+          "chunk_id": 576
+        },
+        {
+          "text": "s have been made for submission of repetitive flight plans, a \nflight plan submitted prior to departure should be submitted in person or by telephone to the \nair traffic services reporting office at the departure aerodrome. If no such unit exists at the \ndeparture aerodrome, the flight plan should be submitted by telephone or typewriter, or if \nthese means are not available, by radio to the unit serving or designated to serve the departure \naerodrome.\nIn the event of a delay of thirty (30) minutes in excess of the estimated off-block time for a \ncontrolled flight or a delay of one hour for an uncontrolled flight for which a flight plan has \nbeen submitted, the flight plan should be amended or a new flight plan submitted and the old \nflight plan cancelled, whichever is applicable.\nDuring fl",
+          "document": "Flight planning and monitoring",
+          "page": 231,
+          "chunk_id": 591
+        },
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What factors would lead a pilot to decide to divert to an alternate airport?",
+      "category": "higher_order",
+      "answer": "Departure aerodrome elevation",
+      "chunks": [
+        {
+          "text": "uded). Assume the \nground speed on this trip is constant. \n When half the distance has been flow, the remaining fuel is 70 kg.\n Is it necessary to divert to a nearby alternate?\na.  Diversion to a nearby alternate is necessary, because the remaining fuel is not \nsufficient\nb.  Diversion to a nearby alternate is not necessary, because the reserve fuel has \nnot been used completely\nc.  Diversion to a nearby alternate is necessary, because it is allowed to calculate \nthe fuel without the reserve\nd.  Diversion to a nearby alternate is necessary, unless the captain decides to \ncontinue on his own responsibility\n34. Refer to CAP 697 MRJT Fig 4.4\n Given:\n DOM - 35 000 kg\n Expected Load - 12 000 kg\n Contingency, approach and hold fuel - 2500 kg \n Departure aerodrome elevation - 500 ft \n Alternate a",
+          "document": "Flight planning and monitoring",
+          "page": 284,
+          "chunk_id": 723
+        },
+        {
+          "text": "l in tanks\n7.  Minimum planned take-off fuel is 160 kg (30% total reserve is included). Assume the \nground speed on this trip is constant. When half the distance has been flown, the \nremaining fuel is 70 kg. Is it necessary to divert to a nearby alternate?\na.  Diversion to a nearby alternate is necessary, because the remaining fuel is not \nsufficient\nb.  Diversion to a nearby alternate is not necessary, because the reserve fuel has \nnot been used completely\nc.  Diversion to a nearby alternate is necessary, because it is allowed to calculate \nthe fuel without reserve\nd.  Diversion to a nearby alternate is necessary, unless the captain decides to \ncontinue on his own responsibility",
+          "document": "Flight planning and monitoring",
+          "page": 45,
+          "chunk_id": 125
+        },
+        {
+          "text": "int in terms of overall fuel and oil requirements along \nthe planned route of flight.  Thus for ETOPS operations the “Trip fuel for the remainder of the \nflight” will be the CRITICAL FUEL i.e the fuel from the most Critical Point (CP)/Equal Time Point \n(ETP) to the diversion aerodrome based upon a consideration of three possible events:\n•  Simultaneous failure of an engine and the pressurization  (this is the worst scenario) An \nemergency descent down to FL100 at VMO/MMO with the speed brakes extended and cruise \nto the diversion airfield at LRC speed. \n•  Total pressurisation failure  (but no engine failure). An emergency descent down to FL100 \nat VMO/MMO with the speed brakes extended and cruise to the diversion airfield at LRC speed.\n•  Engine failure  (but no pressurization failure). D",
+          "document": "Flight planning and monitoring",
+          "page": 119,
+          "chunk_id": 292
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do fuel requirements change for different flight conditions?",
+      "category": "higher_order",
+      "answer": "Planes with turbine power units, fuel to fly for 30 minutes at nholding speed at 1500 ft (450 m) above aerodrome elevation in standard conditions),",
+      "chunks": [
+        {
+          "text": "Fuel Policy and Fuel Monitoring\n2\n26\n2 Fuel Policy and Fuel MonitoringReserve Fuel\nContingency Fuel\nAn operator must ensure that every flight carries sufficient fuel for the planned operation, \nand reserves to cover any replanning necessary for in-flight contingencies. A contingency is \na chance occurrence or unforeseen event. Contingency Fuel  is carried to compensate for \ndeviations:\n• Of an individual aircraft from the expected fuel consumption data\n• From the forecast meteorological conditions\n• From the planned routing and/or cruising levels/altitudes.\nAlternate Fuel\nAlternate Fuel is simply the fuel required to fly from missed approach at the destination to the \nplanned alternate. It should take into account probable routing and expected wind component, \nbut it does not have its own",
+          "document": "Flight planning and monitoring",
+          "page": 32,
+          "chunk_id": 84
+        },
+        {
+          "text": "8\n113\nMRJT Additional Procedures 8MRJT Additional Procedures\nETOPS - Fuel Policy In-flight\nAn operator shall ensure that in-flight  replanning procedures for calculating usable fuel \nrequired when a flight has to proceed along a route, or to a destination other than originally \nplanned , includes:\n• Trip fuel for the remainder of the flight.\n• Reserve fuel consisting of:\n• Contingency fuel.\n• Alternate fuel, if a destination alternate is required.\n•  Final reserve fuel (for aeroplanes with turbine power units, fuel to fly for 30 minutes at \nholding speed at 1500 ft (450 m) above aerodrome elevation in standard conditions), \nand\n•  Additional fuel, if required by the type of operation (e.g. ETOPS) , and\n• Extra fuel if required by the commander.\nETOPS - Critical Fuel\nIn general an aeroplane",
+          "document": "Flight planning and monitoring",
+          "page": 119,
+          "chunk_id": 290
+        },
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What is the relationship between aircraft weight and optimal cruise altitude?",
+      "category": "higher_order",
+      "answer": "optimum cruise pressure altitude",
+      "chunks": [
+        {
+          "text": "ithin 2000 ft of the optimum altitude \nLRC approximates to a .74 Mach cruise.\nIf the aircraft is flown above or below the optimum altitude for LRC or  .78 Mach Table 4.1 \ntabulates the fuel penalty incurred as a % correction.\nExample 1\nEnter the Optimum Cruise Altitude table with the Cruise Mass (Weight) 56 800 kg, move \nvertically up to the selected cruise profile, LRC/.74 Mach or .78 Mach, and move horizontally to \nread the optimum cruise pressure altitude.\n...............................?\n...............................?\nNB.  There are two axis on Fig 4.1 used for the Weight - Brake Release Weight (Take-off Weight) \nor Cruise Weight.  Be sure to get the right one!",
+          "document": "Flight planning and monitoring",
+          "page": 82,
+          "chunk_id": 203
+        },
+        {
+          "text": "distance cruise pressure altitude.\n...............................? \n(Answers page 80)",
+          "document": "Flight planning and monitoring",
+          "page": 83,
+          "chunk_id": 207
+        },
+        {
+          "text": "Weight (Take-off Weight) \nor Cruise Weight.  Be sure to get the right one!",
+          "document": "Flight planning and monitoring",
+          "page": 82,
+          "chunk_id": 204
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How should a pilot balance fuel efficiency with flight time?",
+      "category": "higher_order",
+      "answer": "Fuel to fly for two hours at normal cruise consumption",
+      "chunks": [
+        {
+          "text": "aeroplanes with turbine engines, fuel to fly for two hours at normal cruise consumption \nafter arriving overhead the destination aerodrome, including the final reserve fuel.",
+          "document": "Flight planning and monitoring",
+          "page": 43,
+          "chunk_id": 120
+        },
+        {
+          "text": "e \nthere is no alternate, so there is no alternate fuel. Instead, for a jet or turboprop aircraft, the \ncombination of final reserve fuel and additional fuel must comprise enough fuel to fly for two \nhours at normal cruise consumption after arriving at the destination aerodrome. CS-OPS 1 \nspecifies that the fuel must include:\n• Taxi fuel\n• Trip fuel\n• Contingency fuel\n• Additional fuel if required but not less than:\n•  For aeroplanes with reciprocating engines, fuel to fly for 45 minutes plus 15% of the \nflight time planned to be spent at cruising level, or two hours, whichever is less.\n•  For aeroplanes with turbine engines, fuel to fly for two hours at normal cruise consumption \nafter arriving overhead the destination aerodrome, including the final reserve fuel.",
+          "document": "Flight planning and monitoring",
+          "page": 43,
+          "chunk_id": 119
+        },
+        {
+          "text": "fuel that should remain (in hundreds of kilogrammes) overhead the waypoint \n(i.e. 4500 kg, 4300 kg, 3800 kg, etc). All that the pilot has to do is check as he passes over each \nwaypoint that the fuel remaining is not less than the flight plan fuel and he then knows that \nhe has sufficient to complete the trip and arrive with appropriate reserves.",
+          "document": "Flight planning and monitoring",
+          "page": 36,
+          "chunk_id": 98
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What considerations are needed when planning a flight over mountainous terrain?",
+      "category": "higher_order",
+      "answer": "The accuracy with which an aircraft can determine its position.",
+      "chunks": [
+        {
+          "text": "information does \nnot assure clearance above or around terrain or man-made structures. There may be higher \nuncharted terrain or man-made structures within the vicinity. Terrain information is useful \nfor visual orientation and general visualization of terrain. It does not replace the minimum \naltitudes dictated by the airway and air route structure.\nJM - SID and STAR Legend\nAs the examination will include questions on selected Standard Instrument and Standard \nTerminal Arrival charts the student must have a thorough knowledge of this legend.\nThe charts provide a graphical  (i.e. not to scale) illustration of the governing authority’s \nprescribed procedures .",
+          "document": "Flight planning and monitoring",
+          "page": 158,
+          "chunk_id": 407
+        },
+        {
+          "text": "Topographical Chart\n9\n132\n9 Topographical ChartEstablishment of Minimum Flight Altitudes  \n(Ref. EU-OPS 1.250)\nWhen selecting a Flight Altitude/Level which gives adequate clearance for a given sector the \nfollowing should be considered:\n• The accuracy with which an aircraft can determine its position.\n•  The inherent inaccuracies of altimeters and their indications plus corrections required to \naccount for temperature and pressure variations in relation to ISA.\n• The characteristics of the terrain.\n• Rotor turbulence and standing waves.\n• The accuracy of the navigational chart.\n•  The vertical extensions of Danger, Restricted and Prohibited areas. (Avoid them if they \ncannot be overflown).\n• The vertical extensions of the types of airspace.\n•  The highest ground or obstacle within the prom",
+          "document": "Flight planning and monitoring",
+          "page": 138,
+          "chunk_id": 351
+        },
+        {
+          "text": "extensions of Danger, Restricted and Prohibited areas. (Avoid them if they \ncannot be overflown).\n• The vertical extensions of the types of airspace.\n•  The highest ground or obstacle within the promulgated distances either side of the planned \ntrack.\n• The ICAO Standard Semi-circular Cruising Levels. (See Figure 9.1 )\nThe Minimum Grid Area Altitudes (Grid MORA)\nThese are printed on the chart have already been referred to. These could be used:\n• As a rapid means of assessing the appropriate Flight Level/Altitude.\n•  As a means of cross-checking terrain clearance values that have been obtained using the \nstated methods.\n•  As a rapid means of re-assessing safe clearance of terrain, e.g. when a pilot becomes unsure \nof his exact position in relation to his intended track.\nStudents will be r",
+          "document": "Flight planning and monitoring",
+          "page": 138,
+          "chunk_id": 352
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "How do wind conditions affect route planning and fuel calculations?",
+      "category": "higher_order",
+      "answer": "wind pattern",
+      "chunks": [
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "sense for the time of year\n• The track directions and distances are sensible\n• The wind velocities and average wind component tally with the meteorological forecast\n• The alternates chosen are acceptable\n• The method of cruise control is appropriate\nIf the route is a new one, or one rarely flown, then refer to the aircraft’s Simplified Fuel Planning \nData to verify the computerized plan or use agreed “Rules of Thumb” based upon average fuel \nflows and cruise TAS/ground speeds.",
+          "document": "Flight planning and monitoring",
+          "page": 132,
+          "chunk_id": 334
+        },
+        {
+          "text": "MRJT Additional Procedures\n8\n126\n8 MRJT Additional ProceduresComputer Flight Plans - Checking Accuracy\nNever assume that computer plans are correct invariably; errors can, and do, occur; particularly \nif the wrong information has been loaded into the computer. Check the information to see if \nit is sensible. Experienced pilots, who fly regularly a series of routes soon become familiar with \nroute patterns, their seasonal fuels, times and distances, and can quickly spot a duff computer \nplan. Check that:\n• It is up to date and using the latest forecasts\n• The fuel amounts and flight times make sense for the time of year\n• The track directions and distances are sensible\n• The wind velocities and average wind component tally with the meteorological forecast\n• The alternates chosen are accepta",
+          "document": "Flight planning and monitoring",
+          "page": 132,
+          "chunk_id": 333
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    },
+    {
+      "question": "What decision-making process should be used when flight conditions deteriorate?",
+      "category": "higher_order",
+      "answer": "modification or a new flight plan submitted",
+      "chunks": [
+        {
+          "text": "by, operations and \nflight planning centres.",
+          "document": "Flight planning and monitoring",
+          "page": 9,
+          "chunk_id": 23
+        },
+        {
+          "text": "all ensure that the planning of flights is based only upon:\n•  Procedures and data derived from the Operations Manual or current aeroplane specific \ndata.\n• The conditions under which the flight is to be conducted, including:\n• Realistic fuel flows  expressed as kg/h, lb/h or gal/h ;\n• The aircraft’s anticipated weights (masses)\n• Expected meteorological conditions;  and\n• Air Traffic Service procedures and restrictions",
+          "document": "Flight planning and monitoring",
+          "page": 29,
+          "chunk_id": 79
+        },
+        {
+          "text": "s have been made for submission of repetitive flight plans, a \nflight plan submitted prior to departure should be submitted in person or by telephone to the \nair traffic services reporting office at the departure aerodrome. If no such unit exists at the \ndeparture aerodrome, the flight plan should be submitted by telephone or typewriter, or if \nthese means are not available, by radio to the unit serving or designated to serve the departure \naerodrome.\nIn the event of a delay of thirty (30) minutes in excess of the estimated off-block time for a \ncontrolled flight or a delay of one hour for an uncontrolled flight for which a flight plan has \nbeen submitted, the flight plan should be amended or a new flight plan submitted and the old \nflight plan cancelled, whichever is applicable.\nDuring fl",
+          "document": "Flight planning and monitoring",
+          "page": 231,
+          "chunk_id": 591
+        }
+      ],
+      "retrieval_hit": true,
+      "faithful": true,
+      "hallucinated": false
+    }
+  ]
+}

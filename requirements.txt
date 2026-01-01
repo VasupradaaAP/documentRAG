@@ -1,0 +1,23 @@
+# ========================================
+# AI DOCUMENT CHATBOT - Production Dependencies
+# ========================================
+
+# Core Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# PDF Processing
+PyPDF2==3.0.1
+
+# Vector Search & Embeddings
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+
+# LLM & ML Framework
+transformers==4.35.2
+torch==2.1.1
+accelerate==0.25.0
+
+# Utilities
+numpy==1.24.3

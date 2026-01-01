@@ -1,0 +1,134 @@
+================================================================================
+RAG SYSTEM EVALUATION REPORT
+================================================================================
+Generated: 2026-01-01 16:18:36
+Total Questions Tested: 50
+
+================================================================================
+OVERALL METRICS
+================================================================================
+Retrieval Hit Rate:    90.00%
+  → 45/50 questions had relevant chunks retrieved
+
+Faithfulness Rate:     88.00%
+  → 44/50 answers were grounded in retrieved text
+
+Hallucination Rate:    12.00%
+  → 6/50 answers contained unsupported claims
+
+No Answer Rate:        0.00%
+  → 0/50 questions could not be answered
+
+================================================================================
+CATEGORY BREAKDOWN
+================================================================================
+
+Simple Factual:
+  Total Questions: 20
+  Hit Rate:        85.0%
+  Faithfulness:    80.0%
+  Hallucinations:  20.0%
+
+Applied:
+  Total Questions: 20
+  Hit Rate:        90.0%
+  Faithfulness:    90.0%
+  Hallucinations:  10.0%
+
+Higher Order:
+  Total Questions: 10
+  Hit Rate:        100.0%
+  Faithfulness:    100.0%
+  Hallucinations:  0.0%
+
+================================================================================
+TOP 5 BEST ANSWERS
+================================================================================
+
+1. Question: What is ICAO?
+   Category: Simple Factual
+   Answer: International Civil Aviation Organization...
+   ✓ Retrieval Hit: True
+   ✓ Faithful: True
+   ✓ No Hallucination: True
+   Explanation: This answer demonstrates excellent retrieval and grounding.
+
+2. Question: What does ATC stand for?
+   Category: Simple Factual
+   Answer: Air traffic control...
+   ✓ Retrieval Hit: True
+   ✓ Faithful: True
+   ✓ No Hallucination: True
+   Explanation: This answer demonstrates excellent retrieval and grounding.
+
+3. Question: What is the definition of flight planning?
+   Category: Simple Factual
+   Answer: Planned flight...
+   ✓ Retrieval Hit: True
+   ✓ Faithful: True
+   ✓ No Hallucination: True
+   Explanation: This answer demonstrates excellent retrieval and grounding.
+
+4. Question: What is a flight plan?
+   Category: Simple Factual
+   Answer: Type of plan - individual or repetitive...
+   ✓ Retrieval Hit: True
+   ✓ Faithful: True
+   ✓ No Hallucination: True
+   Explanation: This answer demonstrates excellent retrieval and grounding.
+
+5. Question: What does IFR mean?
+   Category: Simple Factual
+   Answer: Flight rules and type of flight...
+   ✓ Retrieval Hit: True
+   ✓ Faithful: True
+   ✓ No Hallucination: True
+   Explanation: This answer demonstrates excellent retrieval and grounding.
+
+================================================================================
+TOP 5 WORST ANSWERS
+================================================================================
+
+1. Question: What does VFR mean?
+   Category: Simple Factual
+   Answer: VFR...
+   ✗ Retrieval Hit: False
+   ✗ Faithful: False
+   ✗ Hallucinated: True
+   Issue: Retrieval failed - chunks did not contain relevant information
+
+2. Question: What is a SID?
+   Category: Simple Factual
+   Answer: page': 158...
+   ✗ Retrieval Hit: False
+   ✗ Faithful: False
+   ✗ Hallucinated: True
+   Issue: Retrieval failed - chunks did not contain relevant information
+
+3. Question: What is a STAR?
+   Category: Simple Factual
+   Answer: OCK 1D...
+   ✗ Retrieval Hit: False
+   ✗ Faithful: False
+   ✗ Hallucinated: True
+   Issue: Retrieval failed - chunks did not contain relevant information
+
+4. Question: How do you calculate the estimated time en route?
+   Category: Applied
+   Answer: na....
+   ✗ Retrieval Hit: False
+   ✗ Faithful: False
+   ✗ Hallucinated: True
+   Issue: Retrieval failed - chunks did not contain relevant information
+
+5. Question: How do you calculate fuel burn rate?
+   Category: Applied
+   Answer: 104, chunk_id: 255...
+   ✗ Retrieval Hit: False
+   ✗ Faithful: False
+   ✗ Hallucinated: True
+   Issue: Retrieval failed - chunks did not contain relevant information
+
+================================================================================
+END OF REPORT
+================================================================================
