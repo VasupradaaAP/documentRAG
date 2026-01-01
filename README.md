@@ -14,7 +14,7 @@ This is a complete end-to-end RAG (Retrieval Augmented Generation) system that:
 7. **Evaluates system** with automated metrics (retrieval, faithfulness, hallucination)
 
 ## ▶️ Demo Video
-https://drive.google.com/file/d/1pFw0yoALs9GKbQyMfLXtDwCeKzG0auvW/view?usp=sharing
+https://drive.google.com/file/d/1mTmZC8Oyfj2O5uYyAXvT6xICuTaVP6Lp/view?usp=sharing
 
 ## ✨ Features
 
@@ -345,3 +345,4 @@ curl -X POST "http://127.0.0.1:8000/ask" \
   -H "Content-Type: application/json" \
 
   -d '{"question": "What is the maximum altitude?"}'
+
