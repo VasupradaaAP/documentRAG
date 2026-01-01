@@ -299,30 +299,6 @@ python evaluate.py
 - `evaluate_report.md` for full guide
 
 
-## 🎯 Use Cases
-
-### Aviation Documentation
-- Flight manuals, procedures, regulations
-- Maintenance documentation
-- Safety guidelines
-
-### Technical Documentation  
-- Software documentation
-- API references
-- User manuals
-
-### Legal & Compliance
-- Contracts, policies
-- Compliance documents
-- Regulatory guidelines
-
-### Research & Education
-- Research papers
-- Textbooks
-- Course materials
-
-
-
 ## 🚀 Deployment
 
 ### Local Development
@@ -345,4 +321,5 @@ curl -X POST "http://127.0.0.1:8000/ask" \
   -H "Content-Type: application/json" \
 
   -d '{"question": "What is the maximum altitude?"}'
+
 
