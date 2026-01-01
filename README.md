@@ -13,6 +13,9 @@ This is a complete end-to-end RAG (Retrieval Augmented Generation) system that:
 6. **Generates answers** using Hugging Face LLM with citations
 7. **Evaluates system** with automated metrics (retrieval, faithfulness, hallucination)
 
+## ▶️ Demo Video
+https://drive.google.com/file/d/1pFw0yoALs9GKbQyMfLXtDwCeKzG0auvW/view?usp=sharing
+
 ## ✨ Features
 
 ### Core Functionality
@@ -340,4 +343,5 @@ curl -X POST "http://127.0.0.1:8000/ingest" \
 # 3. Ask question
 curl -X POST "http://127.0.0.1:8000/ask" \
   -H "Content-Type: application/json" \
+
   -d '{"question": "What is the maximum altitude?"}'
