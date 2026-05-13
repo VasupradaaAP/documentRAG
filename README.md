@@ -13,9 +13,6 @@ This is a complete end-to-end RAG (Retrieval Augmented Generation) system that:
 6. **Generates answers** using Hugging Face LLM with citations
 7. **Evaluates system** with automated metrics (retrieval, faithfulness, hallucination)
 
-## ▶️ Demo Video
-https://drive.google.com/file/d/1mTmZC8Oyfj2O5uYyAXvT6xICuTaVP6Lp/view?usp=sharing
-
 ## ✨ Features
 
 ### Core Functionality
